@@ -1,0 +1,24 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\GrabTwoCameras\bin\Debug\GrabTwoCameras.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\GrabTwoCameras\bin\Debug\GrabTwoCameras.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\GrabTwoCameras\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\GrabTwoCameras\obj\Debug\GrabTwoCameras.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\GrabTwoCameras\obj\Debug\GrabTwoCameras.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\bin\Debug\GrabTwoCameras.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\bin\Debug\GrabTwoCameras.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\проект для камеры\GrabTwoCameras\bin\Debug\GrabTwoCameras.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\проект для камеры\GrabTwoCameras\bin\Debug\GrabTwoCameras.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\проект для камеры\GrabTwoCameras\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\Рабочее ПО\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\Рабочее ПО\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\GrabTwoCameras\bin\Debug\GrabTwoCameras.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\GrabTwoCameras\bin\Debug\GrabTwoCameras.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\GrabTwoCameras\bin\Debug\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\GrabTwoCameras\bin\Debug\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\GrabTwoCameras\obj\Debug\GrabTwoCameras.csprojResolveAssemblyReference.cache

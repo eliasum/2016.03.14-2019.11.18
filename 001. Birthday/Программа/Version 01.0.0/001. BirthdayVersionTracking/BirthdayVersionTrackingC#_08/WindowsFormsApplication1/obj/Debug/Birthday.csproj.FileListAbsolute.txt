@@ -1,0 +1,9 @@
+d:\Work\Birthday\WindowsFormsApplication1\bin\Debug\Birthday.exe.config
+d:\Work\Birthday\WindowsFormsApplication1\bin\Debug\Birthday.exe
+d:\Work\Birthday\WindowsFormsApplication1\bin\Debug\Birthday.pdb
+d:\Work\Birthday\WindowsFormsApplication1\obj\Debug\Birthday.csprojResolveAssemblyReference.cache
+d:\Work\Birthday\WindowsFormsApplication1\obj\Debug\Birthday.MainForm.resources
+d:\Work\Birthday\WindowsFormsApplication1\obj\Debug\Birthday.Properties.Resources.resources
+d:\Work\Birthday\WindowsFormsApplication1\obj\Debug\Birthday.csproj.GenerateResource.Cache
+d:\Work\Birthday\WindowsFormsApplication1\obj\Debug\Birthday.exe
+d:\Work\Birthday\WindowsFormsApplication1\obj\Debug\Birthday.pdb

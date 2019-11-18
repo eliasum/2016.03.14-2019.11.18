@@ -1,0 +1,15 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\bin\PylonC.NETSupportLibrary.dll
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\bin\PylonC.NETSupportLibrary.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Release\PylonC.NETSupportLibrary.EnumerationComboBoxUserControl.resources
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Release\PylonC.NETSupportLibrary.SliderUserControl.resources
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Release\PylonC.NETSupportLibrary.dll
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Release\PylonC.NETSupportLibrary.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\bin\PylonC.NETSupportLibrary.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\bin\PylonC.NETSupportLibrary.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Pylon.NETSupportLibrary\obj\Release\Pylon.NETSupportLibrary.csprojResolveAssemblyReference.cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Pylon.NETSupportLibrary\obj\Release\PylonC.NETSupportLibrary.EnumerationComboBoxUserControl.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Pylon.NETSupportLibrary\obj\Release\PylonC.NETSupportLibrary.SliderUserControl.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Pylon.NETSupportLibrary\obj\Release\Pylon.NETSupportLibrary.csproj.GenerateResource.Cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Pylon.NETSupportLibrary\obj\Release\PylonC.NETSupportLibrary.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Pylon.NETSupportLibrary\obj\Release\PylonC.NETSupportLibrary.pdb

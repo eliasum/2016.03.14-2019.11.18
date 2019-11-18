@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10.13
+- http://www.phpmyadmin.net
+-
+- Хост: localhost
+- Время создания: Май 04 2017 г., 13:21
+- Версия сервера: 5.1.73-community
+- Версия PHP: 5.6.30
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="my_bd" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="incomes">
+                CREATE TABLE `incomes` (
+                  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                  `name` text,
+                  `unit` text,
+                  `producer` text,
+                  `code` int(11) DEFAULT NULL,
+                  `count` int(11) DEFAULT NULL,
+                  `date` date DEFAULT NULL,
+                  `note_inc` int(11) DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'my_bd'
+    -->
+    <database name="my_bd">
+        <!-- Таблица incomes -->
+    </database>
+</pma_xml_export>

@@ -1,0 +1,12 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\bin\Release\ActionCommands.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\bin\Release\ActionCommands.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\obj\Release\ActionCommands.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\obj\Release\ActionCommands.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\bin\Release\ActionCommands.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\bin\Release\ActionCommands.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\bin\Release\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\bin\Release\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\obj\Release\ActionCommands.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\obj\Release\ActionCommands.pdb
+D:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\obj\Release\ActionCommands.csprojResolveAssemblyReference.cache

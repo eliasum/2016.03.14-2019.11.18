@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <Dt_Device>2015-09-29 15:35:35</Dt_Device>
+    <Reader>Вход</Reader>
+    <Number>13516142</Number>
+    <Access>Проход запрещен </Access>
+    <Last_Name>Слюсоренко</Last_Name>
+    <First_Name>Евгений</First_Name>
+    <Second_Name>Павлович</Second_Name>
+    <Tab_No>46944</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 12:18:16</Dt_Device>
+    <Reader>Выход</Reader>
+    <Number>13516142</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Слюсоренко</Last_Name>
+    <First_Name>Евгений</First_Name>
+    <Second_Name>Павлович</Second_Name>
+    <Tab_No>46944</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 12:36:33</Dt_Device>
+    <Reader>Вход</Reader>
+    <Number>13516142</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Слюсоренко</Last_Name>
+    <First_Name>Евгений</First_Name>
+    <Second_Name>Павлович</Second_Name>
+    <Tab_No>46944</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 17:10:18</Dt_Device>
+    <Reader>Выход</Reader>
+    <Number>13516142</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Слюсоренко</Last_Name>
+    <First_Name>Евгений</First_Name>
+    <Second_Name>Павлович</Second_Name>
+    <Tab_No>46944</Tab_No>
+  </Table>
+</NewDataSet>

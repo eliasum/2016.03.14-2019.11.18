@@ -1,0 +1,11 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\bin\Release\SurpriseRemoval.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\bin\Release\SurpriseRemoval.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\obj\Release\SurpriseRemoval.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\obj\Release\SurpriseRemoval.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SurpriseRemoval\bin\Release\SurpriseRemoval.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SurpriseRemoval\bin\Release\SurpriseRemoval.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SurpriseRemoval\bin\Release\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SurpriseRemoval\bin\Release\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SurpriseRemoval\obj\Release\SurpriseRemoval.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SurpriseRemoval\obj\Release\SurpriseRemoval.pdb

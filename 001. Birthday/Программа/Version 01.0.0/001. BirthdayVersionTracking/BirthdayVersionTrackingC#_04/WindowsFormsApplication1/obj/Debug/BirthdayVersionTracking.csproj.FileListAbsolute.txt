@@ -1,0 +1,36 @@
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.exe.config
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.exe
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.pdb
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.csprojResolveAssemblyReference.cache
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.MainForm.resources
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.Properties.Resources.resources
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.csproj.GenerateResource.Cache
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.exe
+D:\users\Минин\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.exe.config
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.csprojResolveAssemblyReference.cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.MainForm.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.Properties.Resources.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.csproj.GenerateResource.Cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTrackingC#_02\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.exe.config
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.csprojResolveAssemblyReference.cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.MainForm.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.Properties.Resources.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.csproj.GenerateResource.Cache
+d:\BirthdayVersionTracking\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.exe.config
+d:\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.exe
+d:\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.pdb
+d:\BirthdayVersionTracking\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.exe
+d:\BirthdayVersionTracking\WindowsFormsApplication1\bin\Debug\BirthdayVersionTracking.pdb
+d:\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.csprojResolveAssemblyReference.cache
+d:\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.MainForm.resources
+d:\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.Properties.Resources.resources
+d:\BirthdayVersionTracking\WindowsFormsApplication1\obj\Debug\BirthdayVersionTracking.csproj.GenerateResource.Cache

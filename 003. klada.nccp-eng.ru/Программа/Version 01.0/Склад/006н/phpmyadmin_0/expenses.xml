@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.6.5.2
+- https://www.phpmyadmin.net
+-
+- Хост: 127.0.0.1:3306
+- Время создания: Апр 25 2017 г., 07:36
+- Версия сервера: 5.5.53
+- Версия PHP: 5.5.38
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="my_bd" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="expenses">
+                CREATE TABLE `expenses` (
+                  `id` varchar(255) DEFAULT NULL,
+                  `name` varchar(255) DEFAULT NULL,
+                  `unit` varchar(255) DEFAULT NULL,
+                  `producer` varchar(255) DEFAULT NULL,
+                  `code` varchar(255) DEFAULT NULL,
+                  `count` varchar(255) DEFAULT NULL,
+                  `date` varchar(255) DEFAULT NULL,
+                  `note` varchar(255) DEFAULT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'my_bd'
+    -->
+    <database name="my_bd">
+        <!-- Таблица expenses -->
+    </database>
+</pma_xml_export>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rhpml majorversion="7" minorversion="13">
+	<folders>
+		<folder>
+			<name>Кладовка_КБА</name>
+		</folder>
+		<folder>
+			<name>!ScreenLayout!</name>
+		</folder>
+		<folder>
+			<name>!Language!</name>
+		</folder>
+	</folders>
+	<topics>
+		<topic>
+			<name>Оприходование.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+		<topic>
+			<name>Расходование.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+		<topic>
+			<name>Сортировка_остатков.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+		<topic>
+			<name>Поиск_по_остаткам.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+		<topic>
+			<name>О_программе.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+		<topic>
+			<name>Редактирование_записи.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+	</topics>
+</rhpml>

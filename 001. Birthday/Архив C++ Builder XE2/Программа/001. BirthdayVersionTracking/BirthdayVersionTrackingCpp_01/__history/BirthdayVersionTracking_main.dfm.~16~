@@ -1,0 +1,50 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Birthday'
+  ClientHeight = 299
+  ClientWidth = 631
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 488
+    Top = 21
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
+  object B_Delete: TButton
+    Left = 16
+    Top = 16
+    Width = 177
+    Height = 25
+    Caption = #1048#1079#1074#1083#1077#1095' '#1080#1079' '#1072#1074#1090#1086#1079#1072#1087#1091#1089#1082#1072
+    TabOrder = 0
+    OnClick = B_DeleteClick
+  end
+  object Button1: TButton
+    Left = 368
+    Top = 16
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 24
+    Top = 64
+    Width = 185
+    Height = 89
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 2
+  end
+end

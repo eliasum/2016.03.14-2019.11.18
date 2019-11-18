@@ -1,0 +1,9 @@
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\bin\Debug\ArchiveSearch.exe.config
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\bin\Debug\ArchiveSearch.exe
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\bin\Debug\ArchiveSearch.pdb
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\obj\Debug\ArchiveSearch.csprojResolveAssemblyReference.cache
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\obj\Debug\ArchiveSearch.Properties.Resources.resources
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\obj\Debug\ArchiveSearch.csproj.GenerateResource.Cache
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\obj\Debug\ArchiveSearch.exe
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\obj\Debug\ArchiveSearch.pdb
+d:\users\минин\documents\visual studio 2015\Projects\ArchiveSearch\ArchiveSearch\obj\Debug\ArchiveSearch.Form1.resources

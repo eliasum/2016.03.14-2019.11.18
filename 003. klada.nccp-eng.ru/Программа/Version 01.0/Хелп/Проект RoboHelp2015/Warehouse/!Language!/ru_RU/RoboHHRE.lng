@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<section name="MasterPage">
+		<element name="MT_ShowString" value="Показать"></element>
+		<element name="MT_HideString" value="Скрыть"></element>
+	</section>
+	<section name="GlossaryTab">
+		<element name="TabCaption" value="&amp;Глоссарий"></element>
+		<element name="TermCaption" value="&amp;Термин"></element>
+		<element name="DefinitionCaption" value="&amp;Определение:"></element>
+	</section>
+	<section name="BrowseSequence">
+		<element name="PreCaption" value="Предыдущий"></element>
+		<element name="PreTooltip" value="Предыдущий раздел"></element>
+		<element name="NextCaption" value="Следующий"></element>
+		<element name="NextTooltip" value="Следующий раздел"></element>
+		<element name="BlockTooltip" value="Выбрать блок"></element>
+	</section>
+	<section name="Common">
+		<element name="Contents" value="Содержание"></element>
+		<element name="Index" value="Указатель"></element>
+		<element name="Search" value="Поиск"></element>
+		<element name="Glossary" value="Глоссарий"></element>
+		<element name="Logo/Author" value="Предоставляется"></element>
+		<element name="Show" value="Показать"></element>
+		<element name="Hide" value="Скрыть"></element>
+		<element name="SyncToc" value="Синхронизировать содержание"></element>
+		<element name="Prev" value="&lt;&lt;"></element>
+		<element name="Next" value=">>"></element>
+		<element name="Disabled Prev" value="&lt;&lt;"></element>
+		<element name="Disabled Next" value=">>"></element>
+		<element name="Seperate" value="|"></element>
+		<element name="OpenLinkInNewTab" value="Открыть в новой вкладке"/>
+	</section>
+	<section name="AdobeAIR">
+		<element name="PreferenceButtonTitle" value="Настройки"/> 
+		<element name="AboutButtonTitle" value="Сведения"/>
+		<element name="AboutDialogTitle" value="О программе"/> 
+		<element name="AboutHelpID" value="ID справки:"/>
+		<element name="AboutVersionID" value="ID версии:"/> 
+		<element name="AboutDescription" value="Описание:"/>
+		<element name="ConnectionError" value="Нет доступа к общей папке для комментариев"/> 
+		<element name="SyncMessage" value="Отправка/Получение комментариев завершены"/>
+		<element name="SendCommentsServerMessage" value="Комментарии отправлены на сервер"/> 
+		<element name="ReceiveCommentsServerMessage" value="Комментарии получены с сервера"/>
+		<element name="SendCommentsFileMessage" value="Комментарии отправлены в общую папку"/> 
+		<element name="ReceiveCommentsFileMessage" value="Комментарии получены из общей папки"/>
+		<element name="CommentsAddEmptyError" value="Невозможно добавить пустые комментарии"/> 
+		<element name="FileError" value="Ошибка доступа к общему файлу комментариев"/>
+		<element name="SendToFileMenu" value="Отправить в файл"/> 
+		<element name="SendToServerMenu" value="Отправить на сервер"/>
+		<element name="ReceiveFromFileMenu" value="Получить из файла"/> 
+		<element name="ReceiveFromServerMenu" value="Получить с сервера"/>
+		<element name="ShowReviewerMenu" value="Комментатор"/> 
+		<element name="ShowDateMenu" value="Дата"/>
+		<element name="ShowCommentShowAllMenuItem" value="Все"/> 
+		<element name="CommentFileMismatchError" value="ID справки не совпадает, импортировать комментарии невозможно"/>
+		<element name="InvalidXML" value="Неверный файл XML"/> 
+		<element name="CannotImportFileError" value="Невозможно импортировать из файла"/>
+		<element name="SaveXMLFileDlg" value="Сохранить файл XML с комментариями"/> 
+		<element name="CommentTitle" value="Комментарии"/>
+		<element name="AddCommentButton" value="Добавить"/> 
+		<element name="AddCommentButtonToolTip" value="Показать/скрыть поле добавления комментариев"/>
+		<element name="DeleteCommentButton" value="Удалить"/> 
+		<element name="DeleteCommentButtonToolTip" value="Удалить выбранный комментарий"/>
+		<element name="SendRcvCommentButtonToolTip" value="Отправить и получить комментарии"/> 
+		<element name="SendRcvCommentButton" value="Отправить и получить"/>
+		<element name="SaveCommentText" value="Добавить комментарии:"/> 
+		<element name="AddCommentHereText" value="Добавить комментарии здесь"/>
+		<element name="SaveCommentTextToolTip" value="Введите комментарии, которые необходимо добавить"/> 
+		<element name="SaveButtonToolTip" value="Нажмите, чтобы добавить комментарии в базу данных"/>
+		<element name="SaveButton" value="Сохранить"/> 
+		<element name="BackButtonToolTip" value="Назад"/>
+		<element name="ForwardButtonToolTip" value="Далее"/> 
+		<element name="SearchButtonToolTip" value="Нажать Ctrl+Enter для открытия результатов поиска в новой вкладке"/>
+		<element name="SearchButtonTitle" value="Поиск"/> 
+		<element name="ShowHideButtonToolTip" value="Показать/Скрыть"/>
+		<element name="PrintMenuOptionsToolTip" value="Печать меню"/> 
+		<element name="FavoritesTopMenuToolTip" value="Добавить или просмотреть Избранное"/>
+		<element name="CommentPodToggleToolTip" value="Переключить плавающую панель с комментариями"/> 
+		<element name="AddToFavoriteMenuItem" value="Добавить в Ссылки"/>
+		<element name="ViewFavoriteMenuItem" value="Просмотреть Избранное"/> 
+		<element name="PrintThisPage" value="Печать страницы"/>
+		<element name="PrintSequence" value="Печать последовательности"/> 
+		<element name="PrintEntireHelp" value="Печать файла Справки"/>
+		<element name="PrefTitle" value="Предпочтительные параметры"/> 
+		<element name="PreferenceDialogUserNameError" value="Укажите правильное имя рецензента"/>
+		<element name="PreferenceDialogAllCommentsDeleted" value="Все комментарии удалены"/> 
+		<element name="PreferenceDialogCommentsDeleteMsg" value="Удалить все комментарии?"/>
+		<element name="PreferenceDialogContentTabTitle" value="Общее"/> 
+		<element name="PreferenceDlgOpenInNewTab" value="Открыть темы Справки в новой вкладке"/>
+		<element name="PreferenceDlgShowBreadCrumb" value="Показать ссылки"/> 
+		<element name="PreferenceDlgUseOfflineHelp" value="Показать автономную справку"/>
+		<element name="PreferenceDlgShowBrowseSequence" value="Показать обзор последовательности"/> 
+		<element name="PreferenceDlgAutoUpdateContent" value="Автоматическое обновление содержания"/>
+		<element name="PreferenceDlgCheckForUpdate" value="Проверить обновления"/> 
+		<element name="PreferenceDlgCheckUpdateButton" value="Проверить сейчас"/>
+		<element name="PreferenceDialogCommentTabTitle" value="Комментарий"/> 
+		<element name="PreferenceDlgUseLoginName" value="Всегда использовать имя для входа вместо имени рецензента"/>
+		<element name="PreferenceDlgReviewerName" value="Имя рецензента"/> 
+		<element name="PreferenceDlgDeleteAllComments" value="Удалить все комментарии"/>
+		<element name="PreferenceDlgDeleteCommentButton" value="Удалить все"/> 
+		<element name="ViewerDialogOKButton" value="ОК"/>
+		<element name="ViewerDialogCancelButton" value="Отменить"/> 
+		<element name="PrintEntireHelpString" value="Напечатать все темы?"/>
+		<element name="ServerConnectionError" value="Нет соединения с сервером, переключение в автономный режим "/> 
+		<element name="ErrorShowingHelpFile" value="Ошибка при чтении файла справки"/>
+		<element name="LoadingNewTabMsg" value="Загрузка…"/> 
+		<element name="SearchResultDefaultBookmark" value="Результат поиска для: "/>
+		<element name="PrintAlertTitle" value="Печать"/> 
+		<element name="NewSearchTabTitle" value="Результаты поиска"/>
+		<element name="PrintThisCategory" value="Печать категории"/> 
+		<element name="OpenInNewTab" value="Открыть в новой вкладке"/>
+		<element name="TOCBoxTitle" value="Содержание"/> 
+		<element name="IndexBoxTitle" value="Указатель"/>
+		<element name="GlossaryBoxTitle" value="Глоссарий"/> 
+		<element name="FavoriteBoxTitle" value="Избранное"/>
+		<element name="DeleteButtonTitle" value="Удалить"/> 
+		<element name="GlossaryDefinitionBoxTitle" value="Определение глоссария"/>
+		<element name="IndexSearchText" value="Ввести ключевые слова для поиска"/> 
+		<element name="BrowseSequenceBoxTitle" value="Как мне…"/>
+		<element name="SearchTextInputToolTip" value="Ввести текст для поиска"/> 
+		<element name="FavoriteDisplayTopic" value="Показать"/>
+		<element name="FavoriteDeleteTopic" value="Удалить"/> 
+		<element name="FavoriteRenameTopic" value="Переименовать"/>
+		<element name="FavoriteAddFolderTopic" value="Добавить папку"/> 
+		<element name="FavoriteAddRSSFeed" value="Добавить RSS-канал"/>
+		<element name="AddNewFavoriteMenu" value="Добавить ссылку"/> 
+		<element name="EditOption" value="Изменить"/>
+		<element name="FavoriteMessageTitle" value="Избранное"/> 
+		<element name="FavoriteAlredyExists" value="уже существует в закладке Избранное"/>
+		<element name="LinksButtonTitle" value="Ссылки"/> 
+		<element name="FeedsButtonTitle" value="RSS-каналы"/>
+		<element name="FavoriteDeleteButton" value="Удалить"/> 
+		<element name="NewFolderName " value="Новая папка"/>
+		<element name="OpenURL" value="Открыть URL-адрес"/> 
+		<element name="MarkAsRead" value="Пометить как прочитанное"/>
+		<element name="MarkAsUnread" value="Пометить как непрочитанное"/> 
+		<element name="OpenInBrowser" value="Открыть в браузере"/>
+		<element name="NewRSSFeedDlgTitle" value="Добавить новый RSS-канал"/> 
+		<element name="NewRSSFeedName" value="Имя RSS-канала:"/>
+		<element name="NewRSSFeedURL" value="URL-адрес RSS-канала:"/> 
+		<element name="EditRSSFeedDlgTitle" value="Изменить RSS-канал"/>
+		<element name="NewBookmarkDlgTitle" value="Добавить новую ссылку"/> 
+		<element name="NewBookmarkName" value="Название ссылки"/>
+		<element name="NewBookmarkURL" value="URL ссылки"/> 
+		<element name="EditBookmarkDlgTitle" value="Редактировать ссылку"/>
+		<element name="SearchResultError" value="Нет результатов поиска"/> 
+		<element name="FavoriteInvalidNameError" value="Неверное имя"/>
+		<element name="CommentImportFileDlgTitle" value="Выбрать XML файл комментария для импорта"/> 
+		<element name="MinimizeAppButton" value="Свернуть"/>
+		<element name="MaximizeAppButton" value="Развернуть"/> 
+		<element name="CloseAppButton" value="Закрыть"/>
+		<element name="PreferenceDlgHighLightSearch" value="Выделить результаты поиска"/> 
+		<element name="NoUpdatePresent" value="Нет доступного обновления"/>
+		<element name="CheckingforUpdateMsg" value="Проверка обновлений…"/> 
+		<element name="UpdateMsgTitle" value="Автоматическое обновление"/>
+		<element name="NoUpdateLocationSpecified" value="Отсутствует адрес обновлений"/> 
+		<element name="ErrorInDownloadingUpdate" value="Ошибка при загрузке"/>
+		<element name="ErrorInInstallingUpdate" value="Ошибка при установке"/> 
+		<element name="DownloadingUpdate" value="Загрузка обновлений…"/>
+		<element name="InstallationStarted" value="Начало установки…"/> 
+		<element name="UpdateAvailable" value="Обновление доступно. Обновить сейчас?"/>
+		<element name="UpdateAvailableWithVersion" value="Доступно обновление версии %s. Обновить сейчас?"/> 
+		<element name="ErrorWhileUpdating" value="Ошибка при обновлении"/>
+		<element name="NewUpdateAvailableMsg" value="Новое обновление"/> 
+		<element name="PreferenceDialogBrowseButtonTitle" value="Просмотреть"/>
+		<element name="PreferenceDlgChkCommentLocation" value="Использовать место для синхронизации комментариев по умолчанию"/> 
+		<element name="PreferenceDlgCommentSyncLocation" value="Местоположение папки:"/>
+		<element name="RSSSelectLabel" value="Выбрать:"/> 
+		<element name="RSSNoneLabel" value="Нет"/>
+		<element name="RSSReadLabel" value="Прочитанно"/> 
+		<element name="RSSUnReadLabel" value="Непрочитанно"/>
+		<element name="RSSRefreshLabel" value="Обновить"/> 
+		<element name="GenericDeleteMsg" value="Удалить выбранный элемент?"/>
+		<element name="ViewerDialogYesButton" value="Да"/> 
+		<element name="ViewerDialogNoButton" value="Нет"/>
+		<element name="AsAnonymous" value="Анонимно"/> 
+		<element name="PreviewMode" value="Режим предварительного просмотра"/>
+		<element name="AllAuthors" value="Все авторы"/> 
+		<element name="CurrentTopic" value="Комментарии к текущей теме"/>
+		<element name="AllTopics" value="Комментарии ко всем темам"/> 
+		<element name="CommentText" value="Комментарий"/>
+		<element name="Date" value="Дата"/> 
+		<element name="Status" value="Состояние"/>
+		<element name="Author" value="Автор"/> 
+		<element name="AcceptAll" value="Принять все"/>
+		<element name="RejectAll" value="Отклонить все"/> 
+		<element name="Accept" value="Принять"/>
+		<element name="Reject" value="Отклонить"/> 
+		<element name="Delete" value="Удалить"/>
+		<element name="Update" value="Обновить"/> 
+		<element name="StartModeration" value="Импортировать"/>
+		<element name="EndModeration" value="Экспортировать"/> 
+		<element name="ShowBy" value="Показать по"/>
+		<element name="AuthenticateTitle" value="Авторизация"/> 
+		<element name="Username" value="Имя пользователя:"/>
+		<element name="Password" value="Пароль:"/> 
+		<element name="LoginFailure" value="Неверный пароль"/>
+		<element name="LoginFailureTitle" value="Авторизация"/> 
+		<element name="View" value="Просмотр"/>
+		<element name="SortByDate" value="Сортировать по дате"/> 
+		<element name="AllStatus" value="Все состояния"/>
+		<element name="OnlyAccepted" value="Принят"/> 
+		<element name="OnlyRejected" value="Отклонен"/>
+		<element name="OnlyPending" value="Ожидает решения"/> 
+		<element name="OnlyNew" value="Новый"/>
+		<element name="RememberMe" value="Запомнить меня"/> 
+		<element name="AnonymousDlgText" value="Анонимные комментарии будут отображаться только в случае, если их примут. Добавить комментарий анонимно?"/>
+		<element name="Anonymous" value="Анонимный"/> 
+		<element name="CurrentOnlineText" value="Работает в сети"/>
+		<element name="CurrentOfflineText" value="Работает в автономном режиме"/> 
+		<element name="GoOffline" value="перейти в автономный режим"/>
+		<element name="GoOnline" value="подключиться к сети"/> 
+		<element name="ClickHere" value="Нажмите здесь, чтобы"/>
+		<element name="WrongPassword" value="Неверный пароль. Повторите попытку."/> 
+		<element name="ProgressBarTitle" value="Подождите…"/>
+		<element name="ErrorMsgTitle" value="Ошибка"/> 
+		<element name="ErrorServerConnection" value="Ошибка соединения с сервером. Проверьте подключение к интернету и повторите попытку."/>
+		<element name="ServerSyncRequiredButtonLabel" value="Синхронизировать сейчас"/> 
+		<element name="EnableModeration" value="Показать модуль модерации"/>
+		<element name="ModerationModeToolTip" value="Переключить в режим модерации"/> 
+		<element name="CommentsModeToolTip" value="Переключить в режим комментариев"/>
+		<element name="BrowseSeqPrintProgressMsg" value="Загрузка тем для печати…"/> 
+		<element name="EntireHelpPrintProgressMsg" value="Загрузка темы %1 из %2"/>
+		<element name="PrintNotAllowedWariningMsg" value="Невозможно напечатать следующие темы. Продолжить?"/> 
+		<element name="LoginFailedErrorMsg" value="Ошибка входа. Повторите попытку."/>
+		<element name="PreferenceDlgAutoImportCommentsOnLaunch" value="Получать комментарии из общей папки"/> 
+		<element name="WelcomeUserOnSign" value="Добро пожаловать, %1"/>
+		<element name="SignIn" value="Вход"/> 
+		<element name="SignOut" value="Выход"/>
+		<element name="ModerationRightsNotPresent" value="Для отображения модуля модерации необходимы права администратора"/> 
+		<element name="ConfirmDelete" value="Удалить комментарий?"/>
+		<element name="PreferenceDlgAutoImportCommentsOnSignin" value="При входе получать комментарии с сервера"/> 
+		<element name="CommentsBy" value="Комментарии добавили:"/>
+		<element name="ViewALLComments" value="Просмотреть все"/> 
+		<element name="ViewAcceptedComments" value="Просмотреть принятые"/>
+		<element name="ViewRejectedComments" value="Просмотреть отклоненные"/> 
+		<element name="ViewPendingComments" value="Просмотреть ожидающие решения"/>
+		<element name="NewestOnTopLabel" value="Самые новые сверху"/> 
+		<element name="NewestOnBottomLabel" value="Самые новые снизу"/>
+		<element name="RequireWritePermission" value="Модератор должен иметь права записи в общую папку."/> 
+		<element name="PreferenceDialogBrowseCommentSyncLocation" value="Выберите место хранения комментариев:"/>
+		<element name="LoadingCommentsForUserMessage" value="Получение комментариев…"/> 
+		<element name="UpdatingCommentsForUserMessage" value="Отправка комментариев…"/>
+		<element name="SyncModerationFromServerMsg" value="Отправка/Получение комментариев завершены."/> 
+		<element name="SyncCommentsFromServerMsg" value="Отправка/Получение комментариев завершены."/>
+		<element name="RecieveCommentFromServerStartMsg" value="Получение комментариев…"/> 
+		<element name="SendCommentToServerStartMsg" value="Отправка комментариев…"/>
+		<element name="ContentCategoryList" value="Выберите категорию содержания"/> 
+		<element name="CommentsNotFoundMsg" value="Комментарии не найдены"/>
+		<element name="SelectStatus" value="Выберите состояние"/> 
+		<element name="SelectAuthor" value="Выберите автора"/>
+		<element name="ModerationPodTitle" value="Управление"/> 
+		<element name="CommentDateFormatter" value="DD.MM.YYYY"/>
+		<element name="CommentDateTimeFormatter" value="DD.MM.YYYY, JJ:NN"/> 
+	</section>
+	<section name="WebHelp">
+		<element name="ContentCategoryList" value="Выберите категорию содержания"></element>
+		<element name="Cancel" value="Отмена"></element>
+		<element name="CantOpenURLorFile" value="Невозможно открыть URL или файл"></element>
+		<element name="CompletingContents" value="Заполнение содержания..."></element>
+		<element name="Display" value="Показать"></element>
+		<element name="Term" value="Термин:"></element>
+		<element name="Definition" value="Определение:"></element>
+		<element name="Done" value="Готово"></element>
+		<element name="Find" value="Найти"></element>
+		<element name="IndexInputPrompt" value="Введите ключевое слово для поиска:"></element>
+		<element name="RelateTopicListPrompt" value="Выберите раздел, затем нажмите 'Показать'."></element>
+		<element name="LoadingData" value="Загрузка данных, подождите..."></element>
+		<element name="LoadingContents" value="Загрузка содержания, подождите..."></element>
+		<element name="LoadingContentsData" value="Загрузка, нажмите здесь для отмены..."></element>
+		<element name="LoadingFTS" value="Чтение данных поиска..."></element>
+		<element name="LoadingIndex" value="Загрузка указателя..."></element>
+		<element name="LoadingTOCItem" value="Загрузка содержания:"></element>
+		<element name="Searching" value="Поиск…"></element>
+		<element name="FtsInputPrompt" value="Введите слова для поиска:"></element>
+		<element name="FtsHilitePrompt" value="Выделить результаты поиска"></element>
+		<element name="FtsMaxResult" value="Результатов поиска на страницу"></element>
+		<element name="TopicsFound" value="разделов найдено"></element>
+		<element name="BrowserLimitedMessage" value="Ваш обозреватель не поддерживает рамки. Рекомендуется обновить обозреватель на версию, поддерживающую рамки."></element>
+		<element name="SuggestViewNoFrameMessage" value="Для просмотр справочной системы без рамок нажмите эту"></element>
+		<element name="SuggestViewNoFrameMsg2" value="гиперссылку."></element>
+		<element name="TopicsNotFound" value="Разделов не найдено."></element>
+		<element name="CantSearch" value="Невозможно выполнить поиск для этой фразы."></element>
+		<element name="JS_alert_appletNotLoad" value="Не удалось загрузить приложение. Если используется старая версия Netscape, необходимо изменить файл prefs.js."></element>
+		<element name="JS_alert_colorlimitation" value="Система WebHelp обнаружила, что дисплей настроен на 16 цветов. Для полной поддержки WebHelp задайте для дисплея использование 256 или более цветов."></element>
+		<element name="Blank_topic_text" value="Этот раздел создан мастером WinHelp Project Conversion и используется для отсутствующего раздела или неработающей гиперссылки."></element>
+		<element name="JS_alert_ProjectLoadingFail" value="Неуспешная загрузка, нажмите 'Обновить'."></element>
+		<element name="JS_alert_cantLoadProject" value="Невозможно загрузить проект:"></element>
+		<element name="JS_alert_ErrorInLoading" value="Ошибка при загрузке компонента навигации. Выполните регенерацию WebHelp."></element>
+		<element name="JS_alert_LoadXmlFailed" value="Ошибка: не удалось загрузить файл xml."></element>
+		<element name="JS_alert_InitDatabaseFailed" value="Ошибка: не удалось инициализировать базу данных."></element>
+		<element name="JS_alert_NotAllDatabaseInited" value="Внимание! Не загружены все базы данных. Не все тему будут найдены."></element>
+		<element name="JS_alert_InvalidExpression_1" value="Было набрано неверное выражение."></element>
+		<element name="JS_alert_InvalidExpression_2" value="Щелкнуть"></element>
+		<element name="JS_alert_InvalidExpression_3" value="Помощь"></element>
+		<element name="JS_alert_InvalidExpression_4" value="научиться использовать выражение запроса. (Доработать)"></element>
+		<element name="Title" value="Название"></element>
+		<element name="Rank" value="Оценить"></element>
+		<element name="Canceled" value="Отменено"></element>
+		<element name="IndexBtnText" value="Вперед"></element>
+		<element name="FtsBtnText" value="Вперед"></element>
+		<element name="ToolBarSearchBtnText" value="Вперед"></element>
+		<element name="InTopicSearchBtnText" value="Вперед"></element>
+		<element name="SearchLabel" value="Поиск"></element>
+		<element name="SearchPrompt" value="- Поиск -"></element>
+		<element name="PreTooltip" value="Предыдущий раздел"></element>
+		<element name="NextTooltip" value="Следующий раздел"></element>
+		<element name="WebSearch" value="Поиск в Интернете"></element>
+		<element name="SyncTocTooltip" value="Синхр. содержания"></element>
+		<element name="Book" value="Книга"></element>
+		<element name="Page" value="Страница"></element>
+		<element name="Remote_Page" value="Удаленная страница"></element>
+		<element name="Show_Navigation_Component" value="Показать компонент навигации"></element>
+		<element name="Hide_Navigation_Component" value="Скрыть компонент навигации"></element>
+		<element name="nls_edit_label" value="Введите вопрос:"></element>
+		<element name="nls_button_go_hint" value="Начать поиск"></element>
+		<element name="nls_button_go_text" value="Вперед"></element>
+		<element name="nls_body_instruction" value="Введите свой вопрос в текстовом поле выше, затем нажмите 'Вперед'."></element>
+		<element name="nls_body_empty" value="Извините, нам не удалось найти достойный ответ на вопрос."></element>
+	    <element name="IndexSelectTopicTitle" value="Выбор раздела"></element>
+		<element name="IndexSelectTopicLabel" value="Выберите раздел, затем нажмите 'Показать'"></element>
+		<element name="IndexSelectTopicError" value="Выберите раздел."></element>
+		<element name="IndexAlphabetBookmarks" value="АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"></element>
+		<element name="MergeError1" value="В объединенной справочной системе"></element>
+		<element name="MergeError2" value="используется другой язык по сравнению с основной справочной системой, поэтому функции указателя и полнотекстового поиска в объединенной системе будут отключены."></element>
+		<element name="PoweredBy" value="Предоставляется"></element>
+		<element name="GeneratedBy" value="Создано"></element>
+		<element name="Author" value="Автор"></element>
+		<element name="About" value="О программе"></element>
+		<element name="Print" value="Печать"></element>
+		<element name="TotalNumberOfSearchResults" value="Общее количество результатов поиска: %1"></element>
+		<element name="EnableAndSearchString" value="Показать результаты, содержащие все поисковые слова"></element>
+	</section>
+	<section name="MultiScreen">
+		<element name="SearchOptions" value="Параметры поиска"></element>
+		<element name="Loading" value="Загрузка..."></element>
+		<element name="UnknownError" value="Неизвестная ошибка"></element>
+		<element name="Logo" value="Логотип"></element>
+		<element name="Search" value="Поиск"></element>
+		<element name="HomeButton" value="Главная"></element>
+		<element name="SearchPageTitle" value="Результаты поиска"/>
+		<element name="PreviousLabel" value="Назад"></element>
+		<element name="NextLabel" value="Далее"></element>
+		<element name="TopicsNotFound" value="Разделов не найдено."></element>
+		<element name="JS_alert_LoadXmlFailed" value="Ошибка: не удалось загрузить файл xml."></element>
+		<element name="JS_alert_InitDatabaseFailed" value="Ошибка: не удалось инициализировать базу данных."></element>
+		<element name="JS_alert_InvalidExpression_1" value="Было набрано неверное выражение."></element>
+		<element name="Searching" value="Поиск…"></element>
+		<element name="Cancel" value="Отмена"></element>	
+		<element name="Canceled" value="Отменено"></element>
+		<element name="ResultsFoundText" value="Найдено: %1 рез. для %2"></element>
+		<element name="SearchResultsPerScreen" value="Результаты поиска на страницу"></element>
+		<element name="Back" value="Назад"></element>
+		<element name="Next" value=">>"></element>
+		<element name="Prev" value="&lt;&lt;"></element>
+		<element name="TableOfContents" value="Содержание"></element>
+		<element name="IndexFilterKewords" value="Найти ключевое слово"></element>
+		<element name="GlossaryFilterTerms" value="Найти термин"></element>		
+		<element name="ShowAll" value="Показать все"></element>
+		<element name="HideAll" value="Скрыть все"></element>
+		<element name="ShowHide" value="Показать/Скрыть"></element>
+		<element name="IeCompatibilityErrorMsg" value="Невозможно открыть эту страницу в Internet Explorer 8 и предыдущих версиях."></element>
+		<element name="NoScriptErrorMsg" value="Для просмотра страницы включите поддержку JavaScript в браузере."></element>
+		<element name="EnableAndSearch" value="Показать результаты, включающие все поисковые слова"></element>
+		<element name="HighlightSearchResults" value="Выделить результаты поиска"></element>
+		<element name="Print" value="Печать"></element>
+	</section>
+	<section name="ResponsiveHelp">
+		<element name="SearchOptions" value="Параметры поиска"></element>
+		<element name="Loading" value="Загрузка..."></element>
+		<element name="UnknownError" value="Неизвестная ошибка"></element>
+		<element name="Logo" value="Логотип"></element>
+		<element name="Search" value="Поиск"></element>
+		<element name="HomeButton" value="Главная"></element>
+		<element name="SearchPageTitle" value="Результаты поиска"/>
+		<element name="PreviousLabel" value="Назад"></element>
+		<element name="NextLabel" value="Далее"></element>
+		<element name="TopicsNotFound" value="Разделов не найдено."></element>
+		<element name="JS_alert_LoadXmlFailed" value="Ошибка: не удалось загрузить файл xml."></element>
+		<element name="JS_alert_InitDatabaseFailed" value="Ошибка: не удалось инициализировать базу данных."></element>
+		<element name="JS_alert_InvalidExpression_1" value="Было набрано неверное выражение."></element>
+		<element name="Searching" value="Поиск…"></element>
+		<element name="Cancel" value="Отмена"></element>	
+		<element name="Canceled" value="Отменено"></element>
+		<element name="ResultsFoundText" value="Найдено: %1 рез. для %2"></element>
+		<element name="SearchResultsPerScreen" value="Результаты поиска на страницу"></element>
+		<element name="Back" value="Назад"></element>
+		<element name="Next" value=">>"></element>
+		<element name="Prev" value="&lt;&lt;"></element>
+		<element name="TableOfContents" value="Содержание"></element>
+		<element name="IndexFilterKewords" value="Найти ключевое слово"></element>
+		<element name="GlossaryFilterTerms" value="Найти термин"></element>		
+		<element name="ShowAll" value="Показать все"></element>
+		<element name="HideAll" value="Скрыть все"></element>
+		<element name="ShowHide" value="Показать/Скрыть"></element>
+		<element name="IeCompatibilityErrorMsg" value="Невозможно открыть эту страницу в Internet Explorer 8 и предыдущих версиях."></element>
+		<element name="NoScriptErrorMsg" value="Для просмотра страницы включите поддержку JavaScript в браузере."></element>
+		<element name="EnableAndSearch" value="Показать результаты, включающие все поисковые слова"></element>
+		<element name="HighlightSearchResults" value="Выделить результаты поиска"></element>
+		<element name="Print" value="Печать"></element>
+		<element name="Filter" value="Фильтр"></element>
+		<element name="SearchTitle" value="Поиск"></element>
+		<element name="ContentFilterChanged" value="Фильтр содержимого изменен, повторите поиск"></element>
+		<element name="EndOfResults" value="Конец списка результатов."></element>
+		<element name="Reset" value="Сброс"></element>
+		<element name="NavTip" value="Меню"></element>
+		<element name="ToTopTip" value="Наверх"></element>
+		<element name="ApplyTip" value="Применить"></element>
+		<element name="SidebarToggleTip" value="Развернуть/Свернуть"></element>
+	</section>
+	<section name="PrintedDoc">
+		<element name="TableOfContents" value="Содержание"></element>
+		<element name="TitlePage" value="Титульный лист"></element>
+		<element name="ChapterFileNamePrefix" value="Глава_"></element>
+		<element name="TitlePageFileName" value="Глава__Название_Страница.doc"></element>
+		<element name="CrossReferencePrefix" value="См."></element>
+		<element name="GlossaryHeadingStyleName" value="Заголовок глоссария"></element>
+		<element name="GlossaryTermStyleName" value="Термин глоссария"></element>
+		<element name="GlossaryDefinitionStyleName" value="Определение глоссария"></element>
+		<element name="TitlePageTitleStyleName" value="Заголовок титульного листа"></element>
+		<element name="TocPageTitleStyleName" value="Заголовок страницы содержания"></element>
+	</section>
+</configuration>

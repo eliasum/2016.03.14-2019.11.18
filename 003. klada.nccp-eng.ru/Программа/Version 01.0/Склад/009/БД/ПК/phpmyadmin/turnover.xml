@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.6.5.2
+- https://www.phpmyadmin.net
+-
+- Хост: 127.0.0.1:3306
+- Время создания: Май 02 2017 г., 09:45
+- Версия сервера: 5.5.53
+- Версия PHP: 5.5.38
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="my_bd" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="turnover">
+                CREATE TABLE `turnover` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` text NOT NULL,
+                  `unit` text NOT NULL,
+                  `initial` int(11) NOT NULL,
+                  `income` int(11) NOT NULL,
+                  `expence` int(11) NOT NULL,
+                  `final` int(11) NOT NULL,
+                  `date` date NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'my_bd'
+    -->
+    <database name="my_bd">
+        <!-- Таблица turnover -->
+        <table name="turnover">
+            <column name="id">1</column>
+            <column name="name">Наименование</column>
+            <column name="unit">Единица измерения</column>
+            <column name="initial">1</column>
+            <column name="income">2</column>
+            <column name="expence">3</column>
+            <column name="final">4</column>
+            <column name="date">2017-04-27</column>
+        </table>
+    </database>
+</pma_xml_export>

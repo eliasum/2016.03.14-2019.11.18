@@ -1,0 +1,11 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\bin\Release\GenApiParam.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\bin\Release\GenApiParam.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\obj\Release\GenApiParam.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\obj\Release\GenApiParam.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GenApiParam\bin\Release\GenApiParam.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GenApiParam\bin\Release\GenApiParam.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GenApiParam\bin\Release\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GenApiParam\bin\Release\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GenApiParam\obj\Release\GenApiParam.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GenApiParam\obj\Release\GenApiParam.pdb

@@ -1,0 +1,10 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\SurpriseRemoval\bin\Debug\SurpriseRemoval.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\SurpriseRemoval\bin\Debug\SurpriseRemoval.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\SurpriseRemoval\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\SurpriseRemoval\obj\Debug\SurpriseRemoval.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\SurpriseRemoval\obj\Debug\SurpriseRemoval.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\bin\Debug\SurpriseRemoval.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\bin\Debug\SurpriseRemoval.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\obj\Debug\SurpriseRemoval.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SurpriseRemoval\obj\Debug\SurpriseRemoval.pdb

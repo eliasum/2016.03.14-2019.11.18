@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.038,D:\BirthdayVersionTrackingCpp_01\Birthday.cbproj=D:\users\Минин\Documents\RAD Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,D:\BirthdayVersionTrackingCpp_01\BirthdayVersionTracking_main.cpp=D:\users\Минин\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,D:\BirthdayVersionTrackingCpp_01\BirthdayVersionTracking_main.dfm=D:\users\Минин\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.826,=D:\users\Минин\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,D:\BirthdayVersionTrackingCpp_01\BirthdayVersionTracking_main.h=D:\users\Минин\Documents\RAD Studio\Projects\Unit1.h</Transaction>
+  </Transactions>
+</BorlandProject>

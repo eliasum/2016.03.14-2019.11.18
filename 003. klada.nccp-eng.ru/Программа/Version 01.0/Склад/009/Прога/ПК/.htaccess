@@ -1,0 +1,8 @@
+PHP_VALUE default_charset utf-8
+<IfModule dir_module>
+
+    DirectoryIndex index.php
+	
+	ErrorDocument 404 /error_404.php
+		
+</IfModule>

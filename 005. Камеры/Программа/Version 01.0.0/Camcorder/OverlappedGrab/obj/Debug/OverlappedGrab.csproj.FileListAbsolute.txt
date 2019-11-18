@@ -1,0 +1,10 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\OverlappedGrab\bin\Debug\OverlappedGrab.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\OverlappedGrab\bin\Debug\OverlappedGrab.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\OverlappedGrab\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\OverlappedGrab\obj\Debug\OverlappedGrab.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\OverlappedGrab\obj\Debug\OverlappedGrab.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\obj\Debug\OverlappedGrab.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\obj\Debug\OverlappedGrab.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\bin\Debug\OverlappedGrab.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\bin\Debug\OverlappedGrab.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\obj\Debug\ResolveAssemblyReference.cache

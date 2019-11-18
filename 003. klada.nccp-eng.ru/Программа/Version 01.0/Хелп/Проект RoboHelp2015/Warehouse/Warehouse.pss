@@ -1,0 +1,118 @@
+﻿[Target:WebHelp Pro]
+ResultFileName=!SSL!\WebHelp_Pro\Warehouse.htm
+SSLayoutType=32
+ServerProjectName=Warehouse
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+MindReader Server=
+ActionID For Generation=1001
+Remove Folder with prompt=1
+ViewFileName=!SSL!\WebHelp_Pro\Warehouse.htm
+ResultStatus=0
+BuildTimeHi=30589916
+BuildTimeLow=1657193230
+[Target:WebHelp]
+ResultFileName=!SSL!\WebHelp\index.htm
+SSLayoutType=2
+CreateProjectTime=14:30, May 16, 2017
+CreateProjectUser=mim81104
+SupportMas_MPJ=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
+ViewFileName=!SSL!\WebHelp\index.htm
+ResultStatus=0
+BuildTimeHi=30592534
+BuildTimeLow=1290210922
+[Target:Microsoft HTML Help]
+ResultFileName=!SSL!\Microsoft_HTML_Help\Warehouse.chm
+SSLayoutType=1
+CreateProjectTime=14:10, May 03, 2017
+CreateProjectUser=mim81104
+SupportMas_MPJ=1
+ActionID For Generation=1002
+Remove Folder with prompt=1
+ViewFileName=!SSL!\Microsoft_HTML_Help\Warehouse.chm
+ResultStatus=0
+BuildTimeHi=30589916
+BuildTimeLow=1413467330
+[Target:FlashHelp]
+ResultFileName=!SSL!\FlashHelp\Warehouse.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Printed Documentation]
+ResultFileName=!SSL!\Printed_Documentation\Warehouse.doc
+SSLayoutType=7
+[Target:XML Output]
+ResultFileName=!SSL!\XML_Output\Warehouse.xml
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+ResultFileName=!SSL!\FlashHelp_Pro\Warehouse.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Adobe AIR]
+ResultFileName=!SSL!\Adobe_AIR\Warehouse.air
+SSLayoutType=512
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Multiscreen HTML5]
+ResultFileName=!SSL!\Multiscreen_HTML5\Warehouse.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:eBook]
+ResultFileName=!SSL!\eBook\Warehouse.epub
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Responsive HTML5]
+ResultFileName=!SSL!\Responsive_HTML5\Warehouse.htm
+SSLayoutType=2
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[Target:Mobile App]
+ResultFileName=!SSL!\Mobile_App\Warehouse.htm
+SSLayoutType=3
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+ActionID For Generation=1001
+Remove Folder with prompt=1
+[PreSingleSource]
+Html Help Project=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.hhp
+Table Of Content=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\AppHelp.hhc
+Index=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\AppHelp.hhk
+Topic Index=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\RHTopicKeyword$.hhk
+See Also Index=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.hha
+Browse Sequence=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.brs
+Glossary=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\AppHelp.glo
+Topic Properties=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trs
+Active Folders=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trf
+Baggage Files=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trb
+Skin List=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trk
+Active Layout Names=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trl
+Template Files=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trt
+Project TOC List=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trtocl
+Project Index List=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.tridxl
+Project Glossary List=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trglol
+Project CSS List=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trcss
+Project Variable Set List=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.trvset
+External URL Settings=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\SearchOptions.xml
+Screen Template File Details=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Warehouse.sctfdl
+CPSwfToHTML5Map=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\__cpSwf2HTML5ZipMap
+Default Topic=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\Кладовка_КБА\Начало_работы.htm
+Build Tags0=14292;Online | Print
+Build Tags=
+Build Expression=
+Language ID=2073
+Language Name=ru_RU
+Language=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\!Language!\ru_RU\RoboHHRE.lng
+Stop List=D:\users\Минин\Documents\My RoboHelp Projects\Warehouse\!Language!\ru_RU\Warehouse.stp

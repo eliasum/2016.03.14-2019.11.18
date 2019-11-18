@@ -1,0 +1,10 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\GenApiParam\bin\Debug\GenApiParam.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\GenApiParam\bin\Debug\GenApiParam.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\GenApiParam\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\GenApiParam\obj\Debug\GenApiParam.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\GenApiParam\obj\Debug\GenApiParam.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\bin\Debug\GenApiParam.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\bin\Debug\GenApiParam.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\obj\Debug\GenApiParam.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GenApiParam\obj\Debug\GenApiParam.pdb

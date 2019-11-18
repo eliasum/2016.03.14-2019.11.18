@@ -1,0 +1,26 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\bin\PylonC.NETSupportLibrary.dll
+C:\Program Files\Basler\pylon 4\Samples\C#\bin\PylonC.NETSupportLibrary.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\Pylon.NETSupportLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.EnumerationComboBoxUserControl.resources
+C:\Program Files\Basler\pylon 4\Samples\C#\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.SliderUserControl.resources
+C:\Program Files\Basler\pylon 4\Samples\C#\Pylon.NETSupportLibrary\obj\Debug\ResGen.read.1.tlog
+C:\Program Files\Basler\pylon 4\Samples\C#\Pylon.NETSupportLibrary\obj\Debug\ResGen.write.1.tlog
+C:\Program Files\Basler\pylon 4\Samples\C#\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.dll
+C:\Program Files\Basler\pylon 4\Samples\C#\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\bin\PylonC.NETSupportLibrary.dll
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\bin\PylonC.NETSupportLibrary.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.EnumerationComboBoxUserControl.resources
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.SliderUserControl.resources
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\ResGen.read.1.tlog
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\ResGen.write.1.tlog
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.dll
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\bin\PylonC.NETSupportLibrary.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\bin\PylonC.NETSupportLibrary.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\Pylon.NETSupportLibrary.csprojResolveAssemblyReference.cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.EnumerationComboBoxUserControl.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.SliderUserControl.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\Pylon.NETSupportLibrary.csproj.GenerateResource.Cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\проект для камеры\Pylon.NETSupportLibrary\obj\Debug\PylonC.NETSupportLibrary.pdb

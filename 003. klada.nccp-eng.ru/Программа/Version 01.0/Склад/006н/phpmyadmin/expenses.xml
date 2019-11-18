@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.6.5.2
+- https://www.phpmyadmin.net
+-
+- Хост: 127.0.0.1:3306
+- Время создания: Апр 21 2017 г., 05:37
+- Версия сервера: 5.5.53
+- Версия PHP: 5.5.38
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="my_bd" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="expenses">
+                CREATE TABLE `expenses` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) NOT NULL,
+                  `unit` text NOT NULL,
+                  `producer` text NOT NULL,
+                  `code` int(7) NOT NULL,
+                  `count` int(7) NOT NULL,
+                  `date` date NOT NULL,
+                  `note` text NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'my_bd'
+    -->
+    <database name="my_bd">
+        <!-- Таблица expenses -->
+        <table name="expenses">
+            <column name="id">1</column>
+            <column name="name">1</column>
+            <column name="unit"></column>
+            <column name="producer">er</column>
+            <column name="code">0</column>
+            <column name="count">1</column>
+            <column name="date">2017-04-06</column>
+            <column name="note">dfgdgdfgdfgdfg</column>
+        </table>
+        <table name="expenses">
+            <column name="id">2</column>
+            <column name="name">11</column>
+            <column name="unit"></column>
+            <column name="producer">11</column>
+            <column name="code">11</column>
+            <column name="count">11</column>
+            <column name="date">2017-04-06</column>
+            <column name="note">12</column>
+        </table>
+        <table name="expenses">
+            <column name="id">3</column>
+            <column name="name">11</column>
+            <column name="unit"></column>
+            <column name="producer">11</column>
+            <column name="code">11</column>
+            <column name="count">11</column>
+            <column name="date">2017-04-06</column>
+            <column name="note">ghbytrduytfnjn;ojin;okn</column>
+        </table>
+        <table name="expenses">
+            <column name="id">4</column>
+            <column name="name">11</column>
+            <column name="unit"></column>
+            <column name="producer">11</column>
+            <column name="code">11</column>
+            <column name="count">11</column>
+            <column name="date">2017-04-06</column>
+            <column name="note">121212</column>
+        </table>
+        <table name="expenses">
+            <column name="id">5</column>
+            <column name="name">1232</column>
+            <column name="unit"></column>
+            <column name="producer">123</column>
+            <column name="code">123</column>
+            <column name="count">3</column>
+            <column name="date">2017-04-06</column>
+            <column name="note"></column>
+        </table>
+        <table name="expenses">
+            <column name="id">6</column>
+            <column name="name">fghdrtghdfdfbgdfgd</column>
+            <column name="unit"></column>
+            <column name="producer">fghdfghdfghfd</column>
+            <column name="code">345345</column>
+            <column name="count">5000</column>
+            <column name="date">2017-04-06</column>
+            <column name="note"></column>
+        </table>
+        <table name="expenses">
+            <column name="id">7</column>
+            <column name="name">srthrsheyhrh</column>
+            <column name="unit"></column>
+            <column name="producer">hrhrhryhrtyhrth</column>
+            <column name="code">43234234</column>
+            <column name="count">11</column>
+            <column name="date">2017-04-10</column>
+            <column name="note"></column>
+        </table>
+        <table name="expenses">
+            <column name="id">8</column>
+            <column name="name">4tr34ttyg45</column>
+            <column name="unit"></column>
+            <column name="producer">325tw4gt45</column>
+            <column name="code">3534534</column>
+            <column name="count">11</column>
+            <column name="date">2017-04-10</column>
+            <column name="note"></column>
+        </table>
+        <table name="expenses">
+            <column name="id">9</column>
+            <column name="name">4tr34ttyg45</column>
+            <column name="unit"></column>
+            <column name="producer">325tw4gt45</column>
+            <column name="code">3534534</column>
+            <column name="count">11</column>
+            <column name="date">2017-04-10</column>
+            <column name="note"></column>
+        </table>
+        <table name="expenses">
+            <column name="id">10</column>
+            <column name="name">23e23e</column>
+            <column name="unit">23e23e</column>
+            <column name="producer">23e23e</column>
+            <column name="code">332323</column>
+            <column name="count">111</column>
+            <column name="date">2017-04-11</column>
+            <column name="note"></column>
+        </table>
+        <table name="expenses">
+            <column name="id">11</column>
+            <column name="name">11</column>
+            <column name="unit">11</column>
+            <column name="producer">11</column>
+            <column name="code">11</column>
+            <column name="count">11</column>
+            <column name="date">2017-04-11</column>
+            <column name="note"></column>
+        </table>
+    </database>
+</pma_xml_export>

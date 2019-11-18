@@ -1,0 +1,10 @@
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\bin\Debug\BirthdayMainModule.exe.config
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\bin\Debug\BirthdayMainModule.exe
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\bin\Debug\BirthdayMainModule.pdb
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\obj\Debug\BirthdayMainModule.csprojResolveAssemblyReference.cache
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\obj\Debug\BirthdayMainModule.MainForm.resources
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\obj\Debug\BirthdayMainModule.Properties.Resources.resources
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\obj\Debug\BirthdayMainModule.csproj.GenerateResource.Cache
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\obj\Debug\BirthdayMainModule.exe
+d:\users\минин\documents\visual studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\obj\Debug\BirthdayMainModule.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\BirthdayMainModule\BirthdayMainModule\bin\Debug\Newtonsoft.Json.dll

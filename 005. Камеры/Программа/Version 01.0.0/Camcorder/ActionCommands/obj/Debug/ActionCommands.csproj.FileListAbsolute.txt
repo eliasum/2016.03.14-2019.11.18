@@ -1,0 +1,19 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\ActionCommands\bin\Debug\ActionCommands.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\ActionCommands\bin\Debug\ActionCommands.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\ActionCommands\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\ActionCommands\obj\Debug\ActionCommands.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\ActionCommands\obj\Debug\ActionCommands.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\bin\Debug\ActionCommands.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\bin\Debug\ActionCommands.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\obj\Debug\ActionCommands.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ActionCommands\obj\Debug\ActionCommands.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\проект для камеры\ActionCommands\obj\Debug\ActionCommands.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ Контроль геометрии и внешнего вида ТВС\проект для камеры\ActionCommands\obj\Debug\ActionCommands.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\obj\Debug\ActionCommands.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\obj\Debug\ActionCommands.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\bin\Debug\ActionCommands.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\bin\Debug\ActionCommands.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\bin\Debug\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\bin\Debug\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ActionCommands\obj\Debug\ActionCommands.csprojResolveAssemblyReference.cache

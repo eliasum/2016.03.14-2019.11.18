@@ -1,0 +1,46 @@
+﻿[OPTIONS]
+Compiled File=Warehouse.chm
+Title=Warehouse
+Contents File=AppHelp.hhc
+Index File=AppHelp.hhk
+Default topic=
+Default Window=WidgetMax
+Error log file=
+Display compile progress=No
+Display compile notes=No
+Full-text search=No
+Binary Index=No
+Auto Index=No
+Enhanced decompilation=No
+Binary TOC=No
+Flat=No
+LANG_ID=2073
+LANG_NAME=Russian (Russia)
+Custom tab="&Glossary", HHActiveX.GlossaryPane
+
+[WINDOWS]
+WidgetMax="WidgetMax","AppHelp.hhc","AppHelp.hhk","","","http://www.widgetmax.com","Web Site",,,0x40080120,0,0x43006,[0,0,800,600],0x0,0x0,,0,0,0,[Glossary,HHActiveX.GlossaryPane]
+
+[FILES]
+Расходование.htm
+Оприходование.htm
+О_программе.htm
+Редактирование_записи.htm
+Поиск_по_остаткам.htm
+Кладовка_КБА\Начало_работы.htm
+Сортировка_остатков.htm
+
+AppHelp.glo
+Warehouse.brs
+[ALIAS]
+#include Warehouse.ali
+
+[MAP]
+#include BSSCDefault.h
+#include WidgetMax.h
+
+[TEXT POPUPS]
+BSSCDefault.h
+WidgetMax.h
+
+

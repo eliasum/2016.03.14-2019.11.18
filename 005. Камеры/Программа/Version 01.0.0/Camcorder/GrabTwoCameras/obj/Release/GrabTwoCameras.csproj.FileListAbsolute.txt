@@ -1,0 +1,12 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\bin\Release\GrabTwoCameras.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\bin\Release\GrabTwoCameras.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\obj\Release\GrabTwoCameras.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\GrabTwoCameras\obj\Release\GrabTwoCameras.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GrabTwoCameras\bin\Release\GrabTwoCameras.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GrabTwoCameras\bin\Release\GrabTwoCameras.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GrabTwoCameras\bin\Release\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GrabTwoCameras\bin\Release\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GrabTwoCameras\obj\Release\GrabTwoCameras.csprojResolveAssemblyReference.cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GrabTwoCameras\obj\Release\GrabTwoCameras.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\GrabTwoCameras\obj\Release\GrabTwoCameras.pdb

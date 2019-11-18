@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="13.0" version="13.0" Modules="architect" RootPath="." Language="en" Id="{EBC5B3EA-BB16-4CB9-93EB-FCB54C9EE7C8}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CLEAN_RESOURCES_DISABLE_UPGRADE" Value="0"/>
+    <ROW Property="AI_CLEAN_RESOURCES_UNINSTALL" Value="1"/>
+    <ROW Property="AI_CLEAN_RESOURCES_USER_PROMPT_BASIC_UI" Value="0"/>
+    <ROW Property="AI_CLEAN_RESOURCES_USER_PROMPT_FULL_UI" Value="0"/>
+    <ROW Property="AI_ThemeStyle" Value="default" MultiBuildValue="DefaultBuild:style23" MsiKey="AI_ThemeStyle"/>
+    <ROW Property="ALLUSERS" Value="1" MultiBuildValue="DefaultBuild:"/>
+    <ROW Property="ARPCOMMENTS" Value="[|ProductName] Ltd." ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="mim81104@c31.nccp.ru"/>
+    <ROW Property="ARPHELPLINK" Value="http://api.nccp-eng.ru/app/"/>
+    <ROW Property="ARPHELPTELEPHONE" Value="11-25"/>
+    <ROW Property="ARPPRODUCTICON" Value="__1.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://api.nccp-eng.ru/app/"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="http://api.nccp-eng.ru/app/"/>
+    <ROW Property="Manufacturer" Value="eng"/>
+    <ROW Property="ProductCode" Value="1033:{C06C6FDB-13B8-42CC-9B4F-02DE439A2F1D} 1049:{1F7C5E37-E51F-48D2-B60E-60ABF3209D29} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Birthday"/>
+    <ROW Property="ProductVersion" Value="2.0.1" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{04954B50-1B83-4070-A75E-B43D301141A0}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Birthday.exe" ComponentId="{24D7C6C8-1B50-47B5-9A0F-65E79F8F8102}" Directory_="APPDIR" Attributes="0" KeyPath="Birthday.exe"/>
+    <ROW Component="BirthdayUpdater" ComponentId="{5DA2CAC4-B84D-4BBE-B467-BCB3EB2D3F68}" Directory_="APPDIR" Attributes="4" KeyPath="BirthdayUpdater"/>
+    <ROW Component="Birthday_2" ComponentId="{A48CE8F1-00DD-44CE-910B-EA681A7499F5}" Directory_="APPDIR" Attributes="4" KeyPath="Birthday_2"/>
+    <ROW Component="CurrentVersion" ComponentId="{181734BC-D093-4CDB-8ACF-669309829E4A}" Directory_="APPDIR" Attributes="4" KeyPath="CurrentVersion"/>
+    <ROW Component="DevExpress.Data.v15.2.dll" ComponentId="{EA1E0238-F849-4949-BBD0-531A727316DB}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Data.v15.2.dll"/>
+    <ROW Component="DevExpress.Images.v15.2.dll" ComponentId="{A0DC9418-3C92-45A2-AB27-B1B0F6C308C2}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Images.v15.2.dll"/>
+    <ROW Component="DevExpress.Office.v15.2.Core.dll" ComponentId="{9E21C04A-2812-4D20-91CC-2ED670B9359D}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Office.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.Pdf.v15.2.Core.dll" ComponentId="{1F34E6F2-651D-430E-A91D-28AD1CD2826C}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Pdf.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.Pdf.v15.2.Drawing.dll" ComponentId="{7659DA42-51F7-4E8A-8B28-B1D9BAE0926F}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Pdf.v15.2.Drawing.dll"/>
+    <ROW Component="DevExpress.Printing.v15.2.Core.dll" ComponentId="{AF825F41-DB6B-45B9-8720-8E172C743349}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Printing.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.RichEdit.v15.2.Core.dll" ComponentId="{4676E7AF-8DE0-4ACE-9BF8-71616E366CF3}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.RichEdit.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.Sparkline.v15.2.Core.dll" ComponentId="{924429C6-B657-4350-8092-6298FE68290E}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Sparkline.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.Utils.v15.2.dll" ComponentId="{9D45A181-8D95-4484-BC99-80488099A8DA}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Utils.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraBars.v15.2.dll" ComponentId="{079FB2B9-5BCC-4C4E-BFEF-B244AA0C6313}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraBars.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraEditors.v15.2.dll" ComponentId="{2154BA09-3678-44F3-ABFD-B8DD5659F5F4}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraEditors.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraLayout.v15.2.dll" ComponentId="{EE1180BE-543A-4275-B831-4BD273EB5C88}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraLayout.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraPrinting.v15.2.dll" ComponentId="{C76A7F04-C689-4DE0-82A2-D74FD3EA8A7E}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraPrinting.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.Core.dll" ComponentId="{E687930F-9061-4685-9701-A575922D4757}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.dll" ComponentId="{2A691020-55E9-443C-A931-5C36248CE4BD}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraTreeList.v15.2.dll" ComponentId="{36F39328-CBDB-483E-B47D-83E7CC608683}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraTreeList.v15.2.dll"/>
+    <ROW Component="Microsoft" ComponentId="{4356DADA-ADD5-4964-86F9-E3A4DB06A729}" Directory_="APPDIR" Attributes="4" KeyPath="Microsoft"/>
+    <ROW Component="Newtonsoft.Json.dll" ComponentId="{DF66E589-6B8B-436C-930E-B1A03A7B7C66}" Directory_="APPDIR" Attributes="0" KeyPath="Newtonsoft.Json.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{919734DC-122B-48D7-A82D-DB68104588B5}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="Windows" ComponentId="{B8534731-2102-4B39-86BE-CD711F236763}" Directory_="APPDIR" Attributes="4" KeyPath="Windows"/>
+    <ROW Component="dates.txt" ComponentId="{09E01951-896F-4B80-8D86-2E4164F3BD65}" Directory_="APPDIR" Attributes="0" KeyPath="dates.txt" Type="0"/>
+    <ROW Component="updater.exe" ComponentId="{822795C5-83BB-4D52-A615-6DE9AF4405C2}" Directory_="APPDIR" Attributes="0" KeyPath="updater.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="Birthday.exe BirthdayUpdater Birthday_2 CurrentVersion DevExpress.Data.v15.2.dll DevExpress.Images.v15.2.dll DevExpress.Office.v15.2.Core.dll DevExpress.Pdf.v15.2.Core.dll DevExpress.Pdf.v15.2.Drawing.dll DevExpress.Printing.v15.2.Core.dll DevExpress.RichEdit.v15.2.Core.dll DevExpress.Sparkline.v15.2.Core.dll DevExpress.Utils.v15.2.dll DevExpress.XtraBars.v15.2.dll DevExpress.XtraEditors.v15.2.dll DevExpress.XtraLayout.v15.2.dll DevExpress.XtraPrinting.v15.2.dll DevExpress.XtraScheduler.v15.2.Core.dll DevExpress.XtraScheduler.v15.2.dll DevExpress.XtraTreeList.v15.2.dll Microsoft Newtonsoft.Json.dll ProductInformation Windows dates.txt updater.exe"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Birthday.exe" Component_="Birthday.exe" FileName="Birthday.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\Birthday.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="DevExpress.Data.v15.2.dll" Component_="DevExpress.Data.v15.2.dll" FileName="DEVEXP~1.DLL|DevExpress.Data.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Data.v15.2.dll" SelfReg="false" NextFile="DevExpress.Images.v15.2.dll"/>
+    <ROW File="DevExpress.Images.v15.2.dll" Component_="DevExpress.Images.v15.2.dll" FileName="DEVEXP~2.DLL|DevExpress.Images.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Images.v15.2.dll" SelfReg="false" NextFile="DevExpress.Office.v15.2.Core.dll"/>
+    <ROW File="DevExpress.Office.v15.2.Core.dll" Component_="DevExpress.Office.v15.2.Core.dll" FileName="DEVEXP~3.DLL|DevExpress.Office.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Office.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.Pdf.v15.2.Core.dll"/>
+    <ROW File="DevExpress.Pdf.v15.2.Core.dll" Component_="DevExpress.Pdf.v15.2.Core.dll" FileName="DEVEXP~4.DLL|DevExpress.Pdf.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Pdf.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.Pdf.v15.2.Drawing.dll"/>
+    <ROW File="DevExpress.Pdf.v15.2.Drawing.dll" Component_="DevExpress.Pdf.v15.2.Drawing.dll" FileName="DEVEXP~5.DLL|DevExpress.Pdf.v15.2.Drawing.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Pdf.v15.2.Drawing.dll" SelfReg="false" NextFile="DevExpress.Printing.v15.2.Core.dll"/>
+    <ROW File="DevExpress.Printing.v15.2.Core.dll" Component_="DevExpress.Printing.v15.2.Core.dll" FileName="DEVEXP~6.DLL|DevExpress.Printing.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Printing.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.RichEdit.v15.2.Core.dll"/>
+    <ROW File="DevExpress.RichEdit.v15.2.Core.dll" Component_="DevExpress.RichEdit.v15.2.Core.dll" FileName="DEVEXP~7.DLL|DevExpress.RichEdit.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.RichEdit.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.Sparkline.v15.2.Core.dll"/>
+    <ROW File="DevExpress.Sparkline.v15.2.Core.dll" Component_="DevExpress.Sparkline.v15.2.Core.dll" FileName="DEVEXP~8.DLL|DevExpress.Sparkline.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Sparkline.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.Utils.v15.2.dll"/>
+    <ROW File="DevExpress.Utils.v15.2.dll" Component_="DevExpress.Utils.v15.2.dll" FileName="DEVEXP~9.DLL|DevExpress.Utils.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Utils.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraBars.v15.2.dll"/>
+    <ROW File="DevExpress.XtraBars.v15.2.dll" Component_="DevExpress.XtraBars.v15.2.dll" FileName="DEVEX~10.DLL|DevExpress.XtraBars.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraBars.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraEditors.v15.2.dll"/>
+    <ROW File="DevExpress.XtraEditors.v15.2.dll" Component_="DevExpress.XtraEditors.v15.2.dll" FileName="DEVEX~11.DLL|DevExpress.XtraEditors.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraEditors.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraLayout.v15.2.dll"/>
+    <ROW File="DevExpress.XtraLayout.v15.2.dll" Component_="DevExpress.XtraLayout.v15.2.dll" FileName="DEVEX~12.DLL|DevExpress.XtraLayout.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraLayout.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraPrinting.v15.2.dll"/>
+    <ROW File="DevExpress.XtraPrinting.v15.2.dll" Component_="DevExpress.XtraPrinting.v15.2.dll" FileName="DEVEX~13.DLL|DevExpress.XtraPrinting.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraPrinting.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.Core.dll"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.Core.dll" Component_="DevExpress.XtraScheduler.v15.2.Core.dll" FileName="DEVEX~14.DLL|DevExpress.XtraScheduler.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraScheduler.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.dll"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.dll" Component_="DevExpress.XtraScheduler.v15.2.dll" FileName="DEVEX~15.DLL|DevExpress.XtraScheduler.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraScheduler.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraTreeList.v15.2.dll"/>
+    <ROW File="DevExpress.XtraTreeList.v15.2.dll" Component_="DevExpress.XtraTreeList.v15.2.dll" FileName="DEVEX~16.DLL|DevExpress.XtraTreeList.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraTreeList.v15.2.dll" SelfReg="false" NextFile="Newtonsoft.Json.dll"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="Newtonsoft.Json.dll" FileName="NEWTON~1.DLL|Newtonsoft.Json.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\Newtonsoft.Json.dll" SelfReg="false" NextFile="updater.exe"/>
+    <ROW File="dates.txt" Component_="dates.txt" FileName="dates.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\dates.txt" SelfReg="false" NextFile="DevExpress.Data.v15.2.dll"/>
+    <ROW File="updater.exe" Component_="updater.exe" FileName="BIRTHD~2.EXE|BirthdayUpdater.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_STUBS&gt;updater.exe" SelfReg="false" NextFile="Birthday.exe" DigSign="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AiRemoveRegComponent">
+    <ROW RemoveReg="Birthday" InstallMode="2" Condition="(AI_CLEAN_RESOURCES_UNINSTALL = &quot;1&quot;)"/>
+    <ROW RemoveReg="_" InstallMode="2" Condition="(AI_CLEAN_RESOURCES_UNINSTALL = &quot;1&quot;)"/>
+    <ROW RemoveReg="BirthdayUpdater" InstallMode="2" Condition="(AI_CLEAN_RESOURCES_UNINSTALL = &quot;1&quot;)"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="1" PackageFolder="Setup Files" PackageFileName="Birthday2.0.1" Languages="en;ru" LangOpt="1" InstallationType="4" ExtUI="true" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_ru.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_AiRemoveRegsCommit" Description="Executing registry removal operations." Template="Removing registry entry: [1]" DescriptionLocId="ActionText.Description.AI_AiRemoveRegsCommit" TemplateLocId="ActionText.Template.AI_AiRemoveRegsCommit"/>
+    <ROW Action="AI_AiRemoveRegsDeferred" Description="Executing registry removal operations." Template="Removing registry entry: [1]" DescriptionLocId="ActionText.Description.AI_AiRemoveRegsDeferred" TemplateLocId="ActionText.Template.AI_AiRemoveRegsDeferred"/>
+    <ROW Action="AI_AiRemoveRegsImmediate" Description="Generating actions to remove registry entries." DescriptionLocId="ActionText.Description.AI_AiRemoveRegsImmediate"/>
+    <ROW Action="AI_ProcessTasks" Description="Generating actions to schedule tasks on the local computer:" Template="Task Name: [1]" DescriptionLocId="ActionText.Description.AI_ProcessTasks" TemplateLocId="ActionText.Template.AI_ProcessTasks"/>
+    <ROW Action="AI_ProcessTasks2" Description="Generating actions to schedule tasks on the local computer:" Template="Task Name: [1]" DescriptionLocId="ActionText.Description.AI_ProcessTasks" TemplateLocId="ActionText.Template.AI_ProcessTasks"/>
+    <ROW Action="AI_RemoveTasks" Description="Removing scheduled task from the local computer" Template="Task Name: [1]" DescriptionLocId="ActionText.Description.AI_RemoveTasks" TemplateLocId="ActionText.Template.AI_RemoveTasks"/>
+    <ROW Action="AI_RemoveTasks2" Description="Removing scheduled task from the local computer" Template="Task Name: [1]" DescriptionLocId="ActionText.Description.AI_RemoveTasks" TemplateLocId="ActionText.Template.AI_RemoveTasks"/>
+    <ROW Action="AI_RollbackTasks" Description="Rolling back scheduled task on the local computer" Template="Task Name: [1]" DescriptionLocId="ActionText.Description.AI_RollbackTasks" TemplateLocId="ActionText.Template.AI_RollbackTasks"/>
+    <ROW Action="AI_RollbackTasks2" Description="Rolling back scheduled task on the local computer" Template="Task Name: [1]" DescriptionLocId="ActionText.Description.AI_RollbackTasks" TemplateLocId="ActionText.Template.AI_RollbackTasks"/>
+    <ROW Action="AI_ScheduleTasks" Description="Scheduling task on the local computer" Template="Task Name: [1]" DescriptionLocId="ActionText.Description.AI_ScheduleTasks" TemplateLocId="ActionText.Template.AI_ScheduleTasks"/>
+    <ROW Action="AI_ScheduleTasks2" Description="Scheduling task on the local computer" Template="Task Name: [1]" DescriptionLocId="ActionText.Description.AI_ScheduleTasks" TemplateLocId="ActionText.Template.AI_ScheduleTasks"/>
+    <ROW Action="AI_UninstallTasks" Description="Generating actions to remove scheduled tasks from the local computer:" DescriptionLocId="ActionText.Description.AI_UninstallTasks"/>
+    <ROW Action="AI_UninstallTasks2" Description="Generating actions to remove scheduled tasks from the local computer:" DescriptionLocId="ActionText.Description.AI_UninstallTasks"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="ResourceCleaner.dll" SourcePath="&lt;AI_CUSTACTS&gt;ResourceCleaner.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="aischeduler.dll" SourcePath="&lt;AI_CUSTACTS&gt;aischeduler.dll"/>
+    <ROW Name="aischeduler2.dll" SourcePath="&lt;AI_CUSTACTS&gt;aischeduler2.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_AiRemoveRegsCommit" Type="11777" Source="ResourceCleaner.dll" Target="OnAiRemoveRegs" WithoutSeq="true"/>
+    <ROW Action="AI_AiRemoveRegsDeferred" Type="11265" Source="ResourceCleaner.dll" Target="OnAiRemoveRegs" WithoutSeq="true"/>
+    <ROW Action="AI_AiRemoveRegsImmediate" Type="1" Source="ResourceCleaner.dll" Target="OnAiRemoveRegsImmediate"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_ProcessTasks" Type="1" Source="aischeduler.dll" Target="ProcessTasks"/>
+    <ROW Action="AI_ProcessTasks2" Type="1" Source="aischeduler2.dll" Target="ProcessTasks"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_RemoveTasks" Type="11265" Source="aischeduler.dll" Target="DeleteTasks" WithoutSeq="true"/>
+    <ROW Action="AI_RemoveTasks2" Type="11265" Source="aischeduler2.dll" Target="DeleteTasks" WithoutSeq="true"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_RollbackTasks" Type="11521" Source="aischeduler.dll" Target="DeleteTasks" WithoutSeq="true"/>
+    <ROW Action="AI_RollbackTasks2" Type="11521" Source="aischeduler2.dll" Target="DeleteTasks" WithoutSeq="true"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="AI_ScheduleTasks" Type="11265" Source="aischeduler.dll" Target="ScheduleTasks" WithoutSeq="true"/>
+    <ROW Action="AI_ScheduleTasks2" Type="11265" Source="aischeduler2.dll" Target="ScheduleTasks" WithoutSeq="true"/>
+    <ROW Action="AI_UPDATER_UNINSTALL" Type="82" Source="updater.exe" Target="/clean silent"/>
+    <ROW Action="AI_UninstallTasks" Type="1" Source="aischeduler.dll" Target="UninstallTasks"/>
+    <ROW Action="AI_UninstallTasks2" Type="1" Source="aischeduler2.dll" Target="UninstallTasks"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AppDataFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="__1.exe" SourcePath="..\..\..\..\..\..\Work\Images\s17\0009.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIniFileComponent">
+    <ROW IniFile="AppDir" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="AppDir" Value="[APPDIR]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="ApplicationName" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="ApplicationName" Value="[ProductName]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="ApplicationVersion" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="ApplicationVersion" Value="[ProductVersion]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="CheckFrequency" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="CheckFrequency" Value="2" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="CompanyName" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="CompanyName" Value="[Manufacturer]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="DefaultCommandLine" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="DefaultCommandLine" Value="/checknow" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="DownloadsFolder" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="DownloadsFolder" Value="[AppDataFolder][Manufacturer]\[ProductName]\updates\" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="Flags" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="Flags" Value="ShowConfigOptionsButton" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="ID" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="ID" Value="[UpgradeCode]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="URL" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="URL" Value="http://api.nccp-eng.ru/app/BirthdayUpdates.txt" Action="0" Component_="updater.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_UPDATER_UNINSTALL" Condition="($updater.exe = 2) AND (?updater.exe = 3) AND NOT (UPGRADINGPRODUCTCODE)" Sequence="1551"/>
+    <ROW Action="AI_ProcessTasks" Condition="REMOVE&lt;&gt;&quot;ALL&quot;" Sequence="1623"/>
+    <ROW Action="AI_UninstallTasks" Condition="REMOVE=&quot;ALL&quot;" Sequence="1698"/>
+    <ROW Action="AI_ProcessTasks2" Condition="(VersionNT &gt;= 600) AND (REMOVE&lt;&gt;&quot;ALL&quot;)" Sequence="1624"/>
+    <ROW Action="AI_UninstallTasks2" Condition="(VersionNT &gt;= 600) AND (REMOVE=&quot;ALL&quot;)" Sequence="1699"/>
+    <ROW Action="AI_AiRemoveRegsImmediate" Sequence="2599"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="BirthdayUpdater" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Run" Name="BirthdayUpdater" Value="[APPDIR]BirthdayUpdater.exe" Component_="BirthdayUpdater"/>
+    <ROW Registry="Birthday_2" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Run" Name="Birthday" Value="[APPDIR]Birthday.exe" Component_="Birthday_2"/>
+    <ROW Registry="CurrentVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion" Name="+" Component_="CurrentVersion"/>
+    <ROW Registry="Microsoft" Root="-1" Key="Software\Microsoft" Name="+" Component_="Microsoft"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+    <ROW Registry="Windows" Root="-1" Key="Software\Microsoft\Windows" Name="+" Component_="Windows"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRemoveRegComponent">
+    <ROW RemoveRegistry="Birthday" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Run" Name="Birthday" Component_="Birthday.exe"/>
+    <ROW RemoveRegistry="BirthdayUpdater" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Run" Name="BirthdayUpdater" Component_="DevExpress.Pdf.v15.2.Core.dll"/>
+    <ROW RemoveRegistry="_" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="-" Component_="Birthday.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Birthday" Directory_="DesktopFolder" Name="Birthday" Component_="Birthday.exe" Target="[#Birthday.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.ScheduledTasksComponent">
+    <ROW TaskId="AI_BirthdayUpdater" TaskName="BirthdayUpdater" Run="[#updater.exe]" WorkDir="[APPDIR]" UserProp="[%UserDomain]\[LogonUser]" StartTime="18432" Flags="41984" Trigger="5|1|1|1|0|0|0|" Condition="%USERNAME = 1" TaskVersion="2.0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.UpdaterComponent">
+    <ROW Updater="updater.exe" URL="URL" SearchFreq="CheckFrequency" DownloadsFolder="DownloadsFolder" ID="ID" TargetDir="AppDir" AppName="ApplicationName" AppVersion="ApplicationVersion" CompanyName="CompanyName" DefCommandLine="DefaultCommandLine" Flags="Flags" IconPath="..\..\..\..\..\..\Work\Images\s17\0649.ico" IconIndex="0" UnistallCASeq="AI_UPDATER_UNINSTALL" TaskId="AI_BirthdayUpdater" Description="[|UpdaterName] [|ProductVersion] © [|Manufacturer], Inc, 2016"/>
+  </COMPONENT>
+</DOCUMENT>

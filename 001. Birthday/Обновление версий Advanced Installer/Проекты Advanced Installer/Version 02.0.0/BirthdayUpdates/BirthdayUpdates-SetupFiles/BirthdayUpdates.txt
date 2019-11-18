@@ -1,0 +1,21 @@
+;aiu;
+
+[Birthday2.0.1]
+Name = Birthday
+ProductVersion = 2.0.1
+URL = http://api.nccp-eng.ru/app/Birthday2.0.1.msi
+Size = 22604288
+MD5 = 65579a52e9941baa3ce5d36c6512deb8
+ServerFileName = Birthday2.0.1.msi
+RegistryKey = HKUD\Software\eng\Birthday\Version
+Version = 2.0.1
+
+[Birthday2.0.0]
+Name = Birthday
+ProductVersion = 2.0.0
+URL = http://api.nccp-eng.ru/app/Birthday2.0.0.msi
+Size = 22604288
+MD5 = e01545fdd4870295524243ed01a2297d
+ServerFileName = Birthday2.0.0.msi
+RegistryKey = HKUD\Software\eng\Birthday\Version
+Version = 2.0.0

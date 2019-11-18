@@ -1,0 +1,10 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\SimpleGrab\bin\Debug\SimpleGrab.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\SimpleGrab\bin\Debug\SimpleGrab.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\SimpleGrab\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\SimpleGrab\obj\Debug\SimpleGrab.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\SimpleGrab\obj\Debug\SimpleGrab.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\bin\Debug\SimpleGrab.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\bin\Debug\SimpleGrab.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\obj\Debug\SimpleGrab.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\obj\Debug\SimpleGrab.pdb

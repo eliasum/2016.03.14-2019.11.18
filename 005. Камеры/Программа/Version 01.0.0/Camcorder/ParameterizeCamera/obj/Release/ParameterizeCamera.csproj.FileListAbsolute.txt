@@ -1,0 +1,11 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\bin\Release\ParameterizeCamera.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\bin\Release\ParameterizeCamera.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\obj\Release\ParameterizeCamera.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\obj\Release\ParameterizeCamera.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ParameterizeCamera\bin\Release\ParameterizeCamera.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ParameterizeCamera\bin\Release\ParameterizeCamera.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ParameterizeCamera\bin\Release\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ParameterizeCamera\bin\Release\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ParameterizeCamera\obj\Release\ParameterizeCamera.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\ParameterizeCamera\obj\Release\ParameterizeCamera.pdb

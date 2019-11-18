@@ -1,0 +1,9 @@
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\bin\Debug\TimeFixing.exe.config
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\bin\Debug\TimeFixing.exe
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\bin\Debug\TimeFixing.pdb
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.MainForm.resources
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.Properties.Resources.resources
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.csproj.GenerateResource.Cache
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.exe
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.csprojResolveAssemblyReference.cache

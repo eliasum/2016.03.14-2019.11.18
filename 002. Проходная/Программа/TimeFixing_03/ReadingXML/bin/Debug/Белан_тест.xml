@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <Dt_Device>2016-08-31 07:54:12</Dt_Device>
+    <Reader>Вход</Reader>
+    <Number>13513822</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Белан</Last_Name>
+    <First_Name>Андрей</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>80990</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2016-08-31 13:17:30</Dt_Device>
+    <Reader>Выход</Reader>
+    <Number>13513822</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Белан</Last_Name>
+    <First_Name>Андрей</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>80990</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2016-08-31 13:59:12</Dt_Device>
+    <Reader>Вход</Reader>
+    <Number>13513822</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Белан</Last_Name>
+    <First_Name>Андрей</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>80990</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2016-08-31 17:18:43</Dt_Device>
+    <Reader>Выход</Reader>
+    <Number>13513822</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Белан</Last_Name>
+    <First_Name>Андрей</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>80990</Tab_No>
+  </Table>
+  </NewDataSet>

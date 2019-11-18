@@ -1,0 +1,11 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\bin\Release\SimpleGrab.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\bin\Release\SimpleGrab.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\obj\Release\SimpleGrab.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\SimpleGrab\obj\Release\SimpleGrab.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SimpleGrab\bin\Release\SimpleGrab.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SimpleGrab\bin\Release\SimpleGrab.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SimpleGrab\bin\Release\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SimpleGrab\bin\Release\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SimpleGrab\obj\Release\SimpleGrab.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\SimpleGrab\obj\Release\SimpleGrab.pdb

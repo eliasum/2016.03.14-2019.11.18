@@ -1,0 +1,11 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\bin\Release\OverlappedGrab.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\bin\Release\OverlappedGrab.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\obj\Release\OverlappedGrab.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\OverlappedGrab\obj\Release\OverlappedGrab.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\OverlappedGrab\bin\Release\OverlappedGrab.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\OverlappedGrab\bin\Release\OverlappedGrab.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\OverlappedGrab\bin\Release\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\OverlappedGrab\bin\Release\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\OverlappedGrab\obj\Release\OverlappedGrab.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\OverlappedGrab\obj\Release\OverlappedGrab.pdb

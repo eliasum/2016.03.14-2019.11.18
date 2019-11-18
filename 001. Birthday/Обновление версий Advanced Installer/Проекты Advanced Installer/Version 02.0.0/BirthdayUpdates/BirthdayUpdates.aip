@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="13.0" version="13.0" Modules="update" RootPath="." Language="en" Id="{4394E6E5-8F41-4FA8-86D5-6D2E212B5F19}">
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;aiu-ue.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;aiu-ue_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.UpdaterEditorComponent">
+    <ROW Section="Birthday2.0.0" Key="Name" Value="Birthday"/>
+    <ROW Section="Birthday2.0.0" Key="ProductVersion" Value="2.0.0"/>
+    <ROW Section="Birthday2.0.0" Key="URL" Value="http://api.nccp-eng.ru/app/Birthday2.0.0.msi"/>
+    <ROW Section="Birthday2.0.0" Key="Size" Value="..\Birthday2.0.0\Setup Files\Birthday2.0.0.msi"/>
+    <ROW Section="Birthday2.0.0" Key="MD5" Value="..\Birthday2.0.0\Setup Files\Birthday2.0.0.msi"/>
+    <ROW Section="Birthday2.0.0" Key="ServerFileName" Value="Birthday2.0.0.msi"/>
+    <ROW Section="Birthday2.0.0" Key="RegistryKey" Value="HKUD\Software\eng\Birthday\Version"/>
+    <ROW Section="Birthday2.0.0" Key="Version" Value="2.0.0"/>
+    <ROW Section="Birthday2.0.1" Key="Name" Value="Birthday"/>
+    <ROW Section="Birthday2.0.1" Key="ProductVersion" Value="2.0.1"/>
+    <ROW Section="Birthday2.0.1" Key="URL" Value="http://api.nccp-eng.ru/app/Birthday2.0.1.msi"/>
+    <ROW Section="Birthday2.0.1" Key="Size" Value="..\Birthday2.0.1\Setup Files\Birthday2.0.1.msi"/>
+    <ROW Section="Birthday2.0.1" Key="MD5" Value="..\Birthday2.0.1\Setup Files\Birthday2.0.1.msi"/>
+    <ROW Section="Birthday2.0.1" Key="ServerFileName" Value="Birthday2.0.1.msi"/>
+    <ROW Section="Birthday2.0.1" Key="RegistryKey" Value="HKUD\Software\eng\Birthday\Version"/>
+    <ROW Section="Birthday2.0.1" Key="Version" Value="2.0.1"/>
+    <ATTRIBUTE name="OutputFileName" value=".txt"/>
+  </COMPONENT>
+</DOCUMENT>

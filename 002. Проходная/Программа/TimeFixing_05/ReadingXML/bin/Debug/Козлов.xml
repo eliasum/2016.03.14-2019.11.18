@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <Dt_Device>2015-09-29 15:36:02</Dt_Device>
+    <Reader>Вход</Reader>
+    <Number>13516141</Number>
+    <Access>Проход запрещен </Access>
+    <Last_Name>Козлов</Last_Name>
+    <First_Name>Вениамин</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>08310</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-29 19:44:10</Dt_Device>
+    <Reader>Выход</Reader>
+    <Number>13516141</Number>
+    <Access>Проход запрещен </Access>
+    <Last_Name>Козлов</Last_Name>
+    <First_Name>Вениамин</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>08310</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 09:02:47</Dt_Device>
+    <Reader>Вход</Reader>
+    <Number>13516141</Number>
+    <Access>Проход запрещен </Access>
+    <Last_Name>Козлов</Last_Name>
+    <First_Name>Вениамин</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>08310</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 10:45:11</Dt_Device>
+    <Reader>Выход</Reader>
+    <Number>13516141</Number>
+    <Access>Проход запрещен </Access>
+    <Last_Name>Козлов</Last_Name>
+    <First_Name>Вениамин</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>08310</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 13:07:20</Dt_Device>
+    <Reader>Вход</Reader>
+    <Number>13516141</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Козлов</Last_Name>
+    <First_Name>Вениамин</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>08310</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 17:38:59</Dt_Device>
+    <Reader>Вход</Reader>
+    <Number>13516141</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Козлов</Last_Name>
+    <First_Name>Вениамин</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>08310</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 19:19:59</Dt_Device>
+    <Reader>Выход</Reader>
+    <Number>13516141</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Козлов</Last_Name>
+    <First_Name>Вениамин</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>08310</Tab_No>
+  </Table>
+  <Table>
+    <Dt_Device>2015-09-30 17:34:34</Dt_Device>
+    <Reader>Выход</Reader>
+    <Number>13516141</Number>
+    <Access>Проход разрешен </Access>
+    <Last_Name>Козлов</Last_Name>
+    <First_Name>Вениамин</First_Name>
+    <Second_Name>Александрович</Second_Name>
+    <Tab_No>08310</Tab_No>
+  </Table>
+</NewDataSet>

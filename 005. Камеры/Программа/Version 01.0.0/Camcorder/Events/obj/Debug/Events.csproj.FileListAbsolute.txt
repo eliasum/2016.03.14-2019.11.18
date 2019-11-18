@@ -1,0 +1,10 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\Events\bin\Debug\Events.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\Events\bin\Debug\Events.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\Events\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\Events\obj\Debug\Events.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\Events\obj\Debug\Events.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Events\bin\Debug\Events.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Events\bin\Debug\Events.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Events\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Events\obj\Debug\Events.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Events\obj\Debug\Events.pdb

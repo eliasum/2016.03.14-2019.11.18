@@ -1,0 +1,12 @@
+d:\users\минин\documents\visual studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\ReadingXML.csprojResolveAssemblyReference.cache
+d:\users\минин\documents\visual studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\ReadingXML.csproj.GenerateResource.Cache
+d:\Work\006. Проходная\Примеры\001. Считывание XML-данных в набор данных\ReadingXML\ReadingXML\bin\Debug\ReadingXML.exe.config
+d:\Work\006. Проходная\Примеры\001. Считывание XML-данных в набор данных\ReadingXML\ReadingXML\obj\Debug\ReadingXML.exe
+d:\Work\006. Проходная\Примеры\001. Считывание XML-данных в набор данных\ReadingXML\ReadingXML\obj\Debug\ReadingXML.pdb
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\ReadingXML.MainForm.resources
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\bin\Debug\TimeFixing.exe.config
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\bin\Debug\TimeFixing.exe
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\bin\Debug\TimeFixing.pdb
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.exe
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.pdb
+D:\users\Минин\Documents\Visual Studio 2015\Projects\ReadingXML\ReadingXML\obj\Debug\TimeFixing.Properties.Resources.resources

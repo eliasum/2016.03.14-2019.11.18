@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.10.13
+- http://www.phpmyadmin.net
+-
+- Хост: localhost
+- Время создания: Апр 25 2018 г., 17:34
+- Версия сервера: 5.1.73-community
+- Версия PHP: 5.6.30
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="my_bd" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="expenses">
+                CREATE TABLE `expenses` (
+                  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                  `name` text,
+                  `unit` text,
+                  `producer` text,
+                  `code` text,
+                  `count` int(11) DEFAULT NULL,
+                  `date` date DEFAULT NULL,
+                  `note_exp` text,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=38 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'my_bd'
+    -->
+    <database name="my_bd">
+        <!-- Таблица expenses -->
+        <table name="expenses">
+            <column name="id">1</column>
+            <column name="name">SIMATIC S7, MPI-кабель для подключения SIMATIC S7 к программатору через MPI, длина 5 м</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7901-1BF00-0XA0</column>
+            <column name="count">1</column>
+            <column name="date">2017-06-01</column>
+            <column name="note_exp">Неверное наименование!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">2</column>
+            <column name="name">SIMATIC S7, MPI-кабель для подключения SIMATIC S7 к программатору через MPI, длина 5 м</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7901-1BF00-0AA0</column>
+            <column name="count">10</column>
+            <column name="date">2017-06-05</column>
+            <column name="note_exp">Неверный код!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">3</column>
+            <column name="name">SIMATIC S7-300, ЦПУ CPU 315-2DP с встр. MPI, встроенный блок питания =24 В, 256 КБайт рабочей памяти</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7315-2AH14-0AB0-0AE0</column>
+            <column name="count">1</column>
+            <column name="date">2017-06-06</column>
+            <column name="note_exp">Неверный код!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">4</column>
+            <column name="name">SITOP PSU100S 24 V/10 A, стабилизированный блок питания, ВХОД: ~120/230 В, ВЫХОД: =24 В/10 A</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6EP1334-2BA20</column>
+            <column name="count">1</column>
+            <column name="date">2017-06-07</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">5</column>
+            <column name="name">SIMATIC NET IE FC RJ45 Штекер, 180 RJ45, штекерный соединитель с метал. корпусом для пром. условий</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6GK1901-1BB10-2AA0</column>
+            <column name="count">15</column>
+            <column name="date">2017-06-08</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">6</column>
+            <column name="name">SIMATIC DP, электронный модуль дискретного ввода для ET 200S, 2DO реле (FORM C CONT.) =24 В-48 В/5 A, ~24 В-230 В/5 A, 15 мм ширина, сигнал FIRST-UP</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7132-4HB12-0AB0</column>
+            <column name="count">2</column>
+            <column name="date">2017-06-13</column>
+            <column name="note_exp">Неверное наименование!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">7</column>
+            <column name="name">SIMATIC DP, электронный модуль дискретного ввода для ET 200S, 4 DI STANDARD, 4 дискретных входа, стандартный =24 В, 15 мм ширина</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7131-4BD01-0AA0</column>
+            <column name="count">6</column>
+            <column name="date">2017-06-13</column>
+            <column name="note_exp">Неверное наименование!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">8</column>
+            <column name="name">SIMATIC DP, электронный модуль дискретного ввода для ET 200S, 8 DO =24 В/0,5 A, 15 мм ширина</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7132-4BF00-0AA0</column>
+            <column name="count">5</column>
+            <column name="date">2017-06-13</column>
+            <column name="note_exp">Неверное наименование!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">9</column>
+            <column name="name">Выходная развязка 1 CO, винтовые клеммы, AC/DC 24 V, корпус шириной 6.2 мм</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">3TX7004-1LB02</column>
+            <column name="count">3</column>
+            <column name="date">2017-06-13</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">10</column>
+            <column name="name">Кабель с прямым разъёмом М12, 3-полюсный, 5 м</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">3RX8000-0CB32-1AF0</column>
+            <column name="count">34</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">11</column>
+            <column name="name">Текстовый дисплей LOGO! TD</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ED1055-4MH00-0BA0</column>
+            <column name="count">1</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">12</column>
+            <column name="name">SIMATIC NET, CP 343-1, для подключения S7-300 к IND. ETHERNET: AUI/ITP и RJ45, 10/100 МБИТ/С, ISO и TCP/IP, S7-функции связи, FETCH/WRITE и SEND/RECEIVE, с и без RFC1006</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6GK7343-1EX11-0XE0</column>
+            <column name="count">1</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">13</column>
+            <column name="name">KABELDOSE M12 с PUR кабелем 5 м, 3х0,34 мм</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">3RX1533</column>
+            <column name="count">3</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">14</column>
+            <column name="name">Устройство защитного отключения, тип=А, Iном.=25 А, 4-полюсное, Iодн.=30 мА Uном.=400 В АС ширина=4 мод., уст. глубина=55 мм</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">5SM1342-6</column>
+            <column name="count">3</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">15</column>
+            <column name="name">SIMATIC DP, ET 200S, универсальный терминальный модуль TM-E15C26-A1 для установки электронного модуля, ширина 15 мм, 2x6 контакта-защелки, с зажимами для подключения к AUX1, сквозная шина AUX1</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7193-4CA50-0AA0</column>
+            <column name="count">2</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">16</column>
+            <column name="name">SIMATIC DP, ET 200S, терминальный модуль TM-P15C23-A0 для установки модуля контроля питания, ширина 15 мм, 2x3 контакта-защелки, с зажимами для подключения к AUX1 и концевым участком шины AUX1</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7193-4CD30-0AA0</column>
+            <column name="count">4</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">17</column>
+            <column name="name">SIMODRIVE (принадлежности) Вставная муфта 6/6 мм (инкр. датчик)</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6FX2001-7KS06</column>
+            <column name="count">2</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">18</column>
+            <column name="name">SINUMERIK (принадлежности) муфта с упругой шайбой 6/6 мм</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6FX2001-7KF10</column>
+            <column name="count">12</column>
+            <column name="date">2017-06-14</column>
+            <column name="note_exp">Переложен в другое место</column>
+        </table>
+        <table name="expenses">
+            <column name="id">19</column>
+            <column name="name">Концевая крышка - D-ST 2,5 (упаковка 50 шт.)</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">3030417</column>
+            <column name="count">3</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">20</column>
+            <column name="name">Концевая крышка - D-STI 2,5 (упаковка 50 шт.)</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">3030569</column>
+            <column name="count">1</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">21</column>
+            <column name="name">Концевой стопор - E/UK (упаковка 50 шт.)</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">1201442</column>
+            <column name="count">1</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">22</column>
+            <column name="name">Держатель маркировки проводника - PATG 3/15 (упаковка 50 шт.)</column>
+            <column name="unit">упаковка</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">1013041</column>
+            <column name="count">6</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">23</column>
+            <column name="name">SILVYN® KLICK PG — фитинг для защитного рукава с немецкой трубной резьбой для SILVYN® RILL, PG 9</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">61800860</column>
+            <column name="count">46</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">Неверное наименование!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">24</column>
+            <column name="name">SILVYN® KLICK PG — фитинг для защитного рукава с немецкой трубной резьбой для SILVYN® RILL, PG 7</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">61800860</column>
+            <column name="count">46</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">Неверный производитель!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">25</column>
+            <column name="name">SILVYN® KLICK PG — фитинг для защитного рукава с немецкой трубной резьбой для SILVYN® RILL, PG 9</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">61800870</column>
+            <column name="count">31</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">Неверный производитель!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">26</column>
+            <column name="name">SILVYN® KLICK PG — фитинг для защитного рукава с немецкой трубной резьбой для SILVYN® RILL, PG 9 (упаковка 50 шт.)</column>
+            <column name="unit">упаковка</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">61800870</column>
+            <column name="count">9</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">Неверный производитель!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">27</column>
+            <column name="name">SILVYN® KLICK PG — фитинг для защитного рукава с немецкой трубной резьбой для SILVYN® RILL, PG 11 (упаковка 50 шт.)</column>
+            <column name="unit">упаковка</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">61800880</column>
+            <column name="count">5</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">Неверный производитель!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">28</column>
+            <column name="name">SILVYN® KLICK PG — фитинг для защитного рукава с немецкой трубной резьбой для SILVYN® RILL, PG 11</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">61800880</column>
+            <column name="count">31</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">Неверный производитель!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">29</column>
+            <column name="name">SILVYN® KLICK PG — фитинг для защитного рукава с немецкой трубной резьбой для SILVYN® RILL, PG 13,5</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">61800850</column>
+            <column name="count">27</column>
+            <column name="date">2017-06-19</column>
+            <column name="note_exp">Неверный производитель!</column>
+        </table>
+        <table name="expenses">
+            <column name="id">30</column>
+            <column name="name">SKINDICHT® SM-PG 9, контргайка для тонкостенных корпусов со сквозными отверстиями</column>
+            <column name="unit">упаковка</column>
+            <column name="producer">LAPP KABEL</column>
+            <column name="code">52003500</column>
+            <column name="count">87</column>
+            <column name="date">2017-06-20</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">31</column>
+            <column name="name">SIMATIC S7-300, гибкий соединитель: фронт. соединитель 6ES7392-1AM00-0AA0 с подкл. жгутом 20х0.5 мм.кв. изолированных проводов, промаркированные свободные концы жгута, длина жгута 3.2 м</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7922-3BD20-0AC0</column>
+            <column name="count">4</column>
+            <column name="date">2017-07-06</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">32</column>
+            <column name="name">SIMATIC S7-300, 40-полюсный фронтальный соединитель для сигнальных модулей</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6ES7392-1AM00-0AA0</column>
+            <column name="count">8</column>
+            <column name="date">2017-09-18</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">33</column>
+            <column name="name">SITOP SMART 120W Стабилизированный блок питания, вход: 120/230 V AC, выход: 24 V DC/ 5 A</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">6EP1333-2AA01</column>
+            <column name="count">1</column>
+            <column name="date">2017-09-20</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">34</column>
+            <column name="name">Автоматический выключатель, N-расцепитель 300 A, типоразмер S0, для пусковых сборок, 50 КA, винтовые клеммы</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">3RV1321-4DC10</column>
+            <column name="count">1</column>
+            <column name="date">2017-10-05</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">35</column>
+            <column name="name">INSTA КОНТАКТОР C 4 НО 230, 400 V AC, 40 A УПРАВЛЕНИЕ 230 V AC</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">5TT5840-0</column>
+            <column name="count">1</column>
+            <column name="date">2017-10-05</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">36</column>
+            <column name="name">Перемычка - FBSTB 80-ZDIK BU</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Phoenix Contact</column>
+            <column name="code">3006577</column>
+            <column name="count">328</column>
+            <column name="date">2017-10-31</column>
+            <column name="note_exp">NULL</column>
+        </table>
+        <table name="expenses">
+            <column name="id">37</column>
+            <column name="name">INSTA-КОНТАКТОР АС DC 230В 24А 4NO</column>
+            <column name="unit">шт.</column>
+            <column name="producer">Siemens</column>
+            <column name="code">5TT5730-0</column>
+            <column name="count">1</column>
+            <column name="date">2018-02-19</column>
+            <column name="note_exp">NULL</column>
+        </table>
+    </database>
+</pma_xml_export>

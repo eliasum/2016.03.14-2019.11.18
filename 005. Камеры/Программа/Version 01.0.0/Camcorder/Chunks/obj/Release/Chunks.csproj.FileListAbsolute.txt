@@ -1,0 +1,12 @@
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Chunks\bin\Release\Chunks.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Chunks\bin\Release\Chunks.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Chunks\obj\Release\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Chunks\obj\Release\Chunks.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\Chunks\obj\Release\Chunks.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Chunks\bin\Release\Chunks.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Chunks\bin\Release\Chunks.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Chunks\bin\Release\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Chunks\bin\Release\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Chunks\obj\Release\Chunks.csprojResolveAssemblyReference.cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Chunks\obj\Release\Chunks.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\Chunks\obj\Release\Chunks.pdb

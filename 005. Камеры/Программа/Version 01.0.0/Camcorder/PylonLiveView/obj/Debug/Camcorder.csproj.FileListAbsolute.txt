@@ -1,0 +1,17 @@
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\Camcorder.exe.config
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\Camcorder.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\Camcorder.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\PylonC.NET.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\PylonC.NETSupportLibrary.dll
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\PylonC.NETSupportLibrary.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\PylonC.NET.xml
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\obj\Debug\Camcorder.MainForm.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\obj\Debug\Camcorder.Properties.Resources.resources
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\obj\Debug\Camcorder.csproj.GenerateResource.Cache
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\obj\Debug\Camcorder.exe
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\obj\Debug\Camcorder.pdb
+d:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\obj\Debug\Camcorder.csprojResolveAssemblyReference.cache
+D:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\Camcorder.exe.manifest
+D:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\bin\Debug\Camcorder.application
+D:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\obj\Debug\Camcorder.exe.manifest
+D:\users\Минин\Documents\Visual Studio 2015\Projects\Camcorder\PylonLiveView\obj\Debug\Camcorder.application

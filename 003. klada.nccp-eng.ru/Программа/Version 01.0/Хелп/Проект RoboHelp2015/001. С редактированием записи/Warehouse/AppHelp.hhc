@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc version="1.0">
+	<properties imagewidth="16" windowstyles="8388610" exwindowstyles="256">
+	</properties>
+	<item name="Кладовка КБА">
+		<item name="Начало работы" link="Кладовка_КБА\Начало_работы.htm">
+		</item>
+		<item name="Оприходование" link="Оприходование.htm">
+		</item>
+		<item name="Расходование" link="Расходование.htm">
+		</item>
+		<item name="Редактирование записи" link="Редактирование_записи.htm">
+		</item>
+		<item name="Сортировка остатков" link="Сортировка_остатков.htm">
+		</item>
+		<item name="Поиск по остаткам" link="Поиск_по_остаткам.htm">
+		</item>
+		<item name="О программе" link="О_программе.htm">
+		</item>
+	</item>
+</toc>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="13.0" version="13.0" Modules="architect" RootPath="." Language="en" Id="{EBC5B3EA-BB16-4CB9-93EB-FCB54C9EE7C8}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="Установщик программы [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="mim81104@c31.nccp.ru"/>
+    <ROW Property="ARPHELPLINK" Value="http://api.nccp-eng.ru/app/"/>
+    <ROW Property="ARPHELPTELEPHONE" Value="11-25"/>
+    <ROW Property="ARPPRODUCTICON" Value="_.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://api.nccp-eng.ru/app/"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="http://api.nccp-eng.ru/app/"/>
+    <ROW Property="Manufacturer" Value="eng"/>
+    <ROW Property="ProductCode" Value="1033:{A9E305B8-A09B-4AA0-AF73-43943C8C875A} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Birthday"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{04954B50-1B83-4070-A75E-B43D301141A0}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="de_Dir" Directory_Parent="APPDIR" DefaultDir="de"/>
+    <ROW Directory="es_Dir" Directory_Parent="APPDIR" DefaultDir="es"/>
+    <ROW Directory="ja_Dir" Directory_Parent="APPDIR" DefaultDir="ja"/>
+    <ROW Directory="ru_Dir" Directory_Parent="APPDIR" DefaultDir="ru"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Birthday.exe" ComponentId="{24D7C6C8-1B50-47B5-9A0F-65E79F8F8102}" Directory_="APPDIR" Attributes="0" KeyPath="Birthday.exe"/>
+    <ROW Component="BirthdayMainModule.exe" ComponentId="{1588B696-EF58-43C0-A572-579B6A3E270A}" Directory_="APPDIR" Attributes="0" KeyPath="BirthdayMainModule.exe"/>
+    <ROW Component="DevExpress.Data.v15.2.dll" ComponentId="{EA1E0238-F849-4949-BBD0-531A727316DB}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Data.v15.2.dll"/>
+    <ROW Component="DevExpress.Data.v15.2.resources.dll" ComponentId="{E1BA993D-2297-474D-9A10-87821F39F666}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.Data.v15.2.resources.dll"/>
+    <ROW Component="DevExpress.Data.v15.2.resources.dll_1" ComponentId="{7F03E4A2-4377-44FA-A1E4-B9993F46C1E0}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.Data.v15.2.resources.dll_1"/>
+    <ROW Component="DevExpress.Data.v15.2.resources.dll_2" ComponentId="{250CA73A-6BC7-4100-95BE-288DE4A568AB}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.Data.v15.2.resources.dll_2"/>
+    <ROW Component="DevExpress.Data.v15.2.resources.dll_3" ComponentId="{6B6EC81A-C97E-40AC-9905-CDA84B720F60}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.Data.v15.2.resources.dll_3"/>
+    <ROW Component="DevExpress.Images.v15.2.dll" ComponentId="{A0DC9418-3C92-45A2-AB27-B1B0F6C308C2}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Images.v15.2.dll"/>
+    <ROW Component="DevExpress.Office.v15.2.Core.dll" ComponentId="{9E21C04A-2812-4D20-91CC-2ED670B9359D}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Office.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.Office.v15.2.Core.resources.d" ComponentId="{9A3BECAB-E6F6-4183-A547-3CB6FC5F324A}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.Office.v15.2.Core.resources.dll"/>
+    <ROW Component="DevExpress.Office.v15.2.Core.resources_1" ComponentId="{40778745-E77F-465E-A9AE-5B4EB308FD6F}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.Office.v15.2.Core.resources.dll_1"/>
+    <ROW Component="DevExpress.Office.v15.2.Core.resources_2" ComponentId="{FF053303-36CD-49EE-8324-48036BE49127}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.Office.v15.2.Core.resources.dll_2"/>
+    <ROW Component="DevExpress.Office.v15.2.Core.resources_3" ComponentId="{6658C548-8317-446A-973B-BF4157C33EB9}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.Office.v15.2.Core.resources.dll_3"/>
+    <ROW Component="DevExpress.Pdf.v15.2.Core.dll" ComponentId="{1F34E6F2-651D-430E-A91D-28AD1CD2826C}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Pdf.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.Pdf.v15.2.Core.resources.dl_1" ComponentId="{1CB49417-4475-4DC4-84AB-82DC7D2D3655}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.Pdf.v15.2.Core.resources.dll_1"/>
+    <ROW Component="DevExpress.Pdf.v15.2.Core.resources.dl_2" ComponentId="{50710336-4D01-41CB-87C9-C8D87E8C5F55}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.Pdf.v15.2.Core.resources.dll_2"/>
+    <ROW Component="DevExpress.Pdf.v15.2.Core.resources.dl_3" ComponentId="{E68C1696-861B-43BD-8665-3BDBEDC40B2F}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.Pdf.v15.2.Core.resources.dll_3"/>
+    <ROW Component="DevExpress.Pdf.v15.2.Core.resources.dll" ComponentId="{8986E2FD-9434-42FF-A52C-DAF5708C805D}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.Pdf.v15.2.Core.resources.dll"/>
+    <ROW Component="DevExpress.Pdf.v15.2.Drawing.dll" ComponentId="{7659DA42-51F7-4E8A-8B28-B1D9BAE0926F}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Pdf.v15.2.Drawing.dll"/>
+    <ROW Component="DevExpress.Printing.v15.2.Core.dll" ComponentId="{AF825F41-DB6B-45B9-8720-8E172C743349}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Printing.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.Printing.v15.2.Core.resourc_1" ComponentId="{EAD8DFC6-5FC2-4EDD-B7C6-B0842E804405}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.Printing.v15.2.Core.resources.dll_1"/>
+    <ROW Component="DevExpress.Printing.v15.2.Core.resourc_2" ComponentId="{AB8852FB-ACCA-4CF1-B2FE-50227B0C6E19}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.Printing.v15.2.Core.resources.dll_2"/>
+    <ROW Component="DevExpress.Printing.v15.2.Core.resourc_3" ComponentId="{9AFB9A6A-6559-4F1E-8BF1-E80C415DAFE5}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.Printing.v15.2.Core.resources.dll_3"/>
+    <ROW Component="DevExpress.Printing.v15.2.Core.resources" ComponentId="{4AEC5D4B-179C-4292-84A7-CBCAC4A2F266}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.Printing.v15.2.Core.resources.dll"/>
+    <ROW Component="DevExpress.RichEdit.v15.2.Core.dll" ComponentId="{4676E7AF-8DE0-4ACE-9BF8-71616E366CF3}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.RichEdit.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.RichEdit.v15.2.Core.resourc_1" ComponentId="{425A7EF5-99B8-4F8A-A1CB-3469F5B3A222}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.RichEdit.v15.2.Core.resources.dll_1"/>
+    <ROW Component="DevExpress.RichEdit.v15.2.Core.resourc_2" ComponentId="{15E0A90A-5F24-43FA-AC11-BB6BA40D1B39}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.RichEdit.v15.2.Core.resources.dll_2"/>
+    <ROW Component="DevExpress.RichEdit.v15.2.Core.resourc_3" ComponentId="{676E76BD-EF5D-4225-BF1F-910B4F179877}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.RichEdit.v15.2.Core.resources.dll_3"/>
+    <ROW Component="DevExpress.RichEdit.v15.2.Core.resources" ComponentId="{8FF3607B-5549-4CA5-9C17-B806A86ED220}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.RichEdit.v15.2.Core.resources.dll"/>
+    <ROW Component="DevExpress.Sparkline.v15.2.Core.dll" ComponentId="{924429C6-B657-4350-8092-6298FE68290E}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Sparkline.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.Sparkline.v15.2.Core.resour_1" ComponentId="{117BD963-AF40-4D3A-8C50-A5F5CF33A31C}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.Sparkline.v15.2.Core.resources.dll_1"/>
+    <ROW Component="DevExpress.Sparkline.v15.2.Core.resour_2" ComponentId="{A8F33E06-80C8-42AC-A991-61838199AE7A}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.Sparkline.v15.2.Core.resources.dll_2"/>
+    <ROW Component="DevExpress.Sparkline.v15.2.Core.resour_3" ComponentId="{FB958776-2257-4870-A820-C0A0DEBDA127}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.Sparkline.v15.2.Core.resources.dll_3"/>
+    <ROW Component="DevExpress.Sparkline.v15.2.Core.resource" ComponentId="{5B81E54C-F00D-4864-AD02-3EE11A9977CF}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.Sparkline.v15.2.Core.resources.dll"/>
+    <ROW Component="DevExpress.Utils.v15.2.dll" ComponentId="{9D45A181-8D95-4484-BC99-80488099A8DA}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.Utils.v15.2.dll"/>
+    <ROW Component="DevExpress.Utils.v15.2.resources.dll" ComponentId="{0F1F2F55-3283-411F-938E-B39FC1016B9C}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.Utils.v15.2.resources.dll"/>
+    <ROW Component="DevExpress.Utils.v15.2.resources.dll_1" ComponentId="{8C1727A2-3E69-4C03-9B5B-458D96C4981E}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.Utils.v15.2.resources.dll_1"/>
+    <ROW Component="DevExpress.Utils.v15.2.resources.dll_2" ComponentId="{5C45A2E9-B16D-4CED-9771-A4665B09D371}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.Utils.v15.2.resources.dll_2"/>
+    <ROW Component="DevExpress.Utils.v15.2.resources.dll_3" ComponentId="{8A5D99CC-A448-4DC3-AAD4-9256725E5910}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.Utils.v15.2.resources.dll_3"/>
+    <ROW Component="DevExpress.XtraBars.v15.2.dll" ComponentId="{079FB2B9-5BCC-4C4E-BFEF-B244AA0C6313}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraBars.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraBars.v15.2.resources.dl_1" ComponentId="{2713BE34-C87F-4CEB-A803-6B681B808B46}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.XtraBars.v15.2.resources.dll_1"/>
+    <ROW Component="DevExpress.XtraBars.v15.2.resources.dl_2" ComponentId="{83B4B9F9-498F-4F77-A095-391CF35EAE02}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.XtraBars.v15.2.resources.dll_2"/>
+    <ROW Component="DevExpress.XtraBars.v15.2.resources.dl_3" ComponentId="{FF24ABF8-5DCC-4469-A5BC-6DDBAB95740E}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.XtraBars.v15.2.resources.dll_3"/>
+    <ROW Component="DevExpress.XtraBars.v15.2.resources.dll" ComponentId="{05501BD3-E914-497B-9D31-9D9C0129524F}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.XtraBars.v15.2.resources.dll"/>
+    <ROW Component="DevExpress.XtraEditors.v15.2.dll" ComponentId="{2154BA09-3678-44F3-ABFD-B8DD5659F5F4}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraEditors.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraEditors.v15.2.resources.d" ComponentId="{D8B411AD-8D54-48EB-8387-EBA9E29C693C}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.XtraEditors.v15.2.resources.dll"/>
+    <ROW Component="DevExpress.XtraEditors.v15.2.resources_1" ComponentId="{4D84EE2F-9AD5-472F-826D-97A46284233F}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.XtraEditors.v15.2.resources.dll_1"/>
+    <ROW Component="DevExpress.XtraEditors.v15.2.resources_2" ComponentId="{30010887-0F32-49D9-B39D-7955EF46CC3A}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.XtraEditors.v15.2.resources.dll_2"/>
+    <ROW Component="DevExpress.XtraEditors.v15.2.resources_3" ComponentId="{F91F49F2-74E0-4175-8329-2BA40ECDC52A}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.XtraEditors.v15.2.resources.dll_3"/>
+    <ROW Component="DevExpress.XtraLayout.v15.2.dll" ComponentId="{EE1180BE-543A-4275-B831-4BD273EB5C88}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraLayout.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraLayout.v15.2.resources._1" ComponentId="{842900B2-CEB6-421A-B4D0-066DAF950799}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.XtraLayout.v15.2.resources.dll_1"/>
+    <ROW Component="DevExpress.XtraLayout.v15.2.resources._2" ComponentId="{8A1CBB9D-8B42-46DB-89EE-12359B95BA45}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.XtraLayout.v15.2.resources.dll_2"/>
+    <ROW Component="DevExpress.XtraLayout.v15.2.resources._3" ComponentId="{BCF82E8F-86F7-4A21-A7F6-51DDD1FF9260}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.XtraLayout.v15.2.resources.dll_3"/>
+    <ROW Component="DevExpress.XtraLayout.v15.2.resources.dl" ComponentId="{3FBA36AD-9F51-4DD5-878A-54EE277C8CC9}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.XtraLayout.v15.2.resources.dll"/>
+    <ROW Component="DevExpress.XtraPrinting.v15.2.dll" ComponentId="{C76A7F04-C689-4DE0-82A2-D74FD3EA8A7E}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraPrinting.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraPrinting.v15.2.resource_1" ComponentId="{E0B8CC0B-8F17-49E9-AA45-5BA33174157E}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.XtraPrinting.v15.2.resources.dll_1"/>
+    <ROW Component="DevExpress.XtraPrinting.v15.2.resource_2" ComponentId="{929DEA39-2965-4213-8C27-0A2D1BDB2CAA}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.XtraPrinting.v15.2.resources.dll_2"/>
+    <ROW Component="DevExpress.XtraPrinting.v15.2.resource_3" ComponentId="{77DF2E3C-A73D-4642-94C0-A521972FFA5E}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.XtraPrinting.v15.2.resources.dll_3"/>
+    <ROW Component="DevExpress.XtraPrinting.v15.2.resources." ComponentId="{345642A2-2109-4238-BAB0-85CAC6B78D51}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.XtraPrinting.v15.2.resources.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.Core.dll" ComponentId="{E687930F-9061-4685-9701-A575922D4757}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.Core.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.Core.re_1" ComponentId="{13EEED08-5276-4E2D-87A1-5F7111AF1372}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.Core.resources.dll_1"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.Core.re_2" ComponentId="{85F2B32D-0FCC-4F7B-838B-8134895FEDF8}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.Core.resources.dll_2"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.Core.re_3" ComponentId="{1D369715-7DE4-4F94-8799-BD7279BA1376}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.Core.resources.dll_3"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.Core.reso" ComponentId="{721BD895-A845-4EE8-BDF2-17FEB3584AB5}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.Core.resources.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.dll" ComponentId="{2A691020-55E9-443C-A931-5C36248CE4BD}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.resourc_1" ComponentId="{BE92278D-56C3-4C28-8298-442A180BB675}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.resources.dll_1"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.resourc_2" ComponentId="{EA1543D8-0CCC-490A-8D24-4727B0B66718}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.resources.dll_2"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.resourc_3" ComponentId="{0F101F8A-18AD-4085-AFF9-D0B82A28F6F3}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.resources.dll_3"/>
+    <ROW Component="DevExpress.XtraScheduler.v15.2.resources" ComponentId="{CF8B41FE-E68A-48A5-B3C4-3AB378DBA76F}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.XtraScheduler.v15.2.resources.dll"/>
+    <ROW Component="DevExpress.XtraTreeList.v15.2.dll" ComponentId="{36F39328-CBDB-483E-B47D-83E7CC608683}" Directory_="APPDIR" Attributes="0" KeyPath="DevExpress.XtraTreeList.v15.2.dll"/>
+    <ROW Component="DevExpress.XtraTreeList.v15.2.resource_1" ComponentId="{87444542-31AF-4885-AF4F-FAF59687A826}" Directory_="es_Dir" Attributes="0" KeyPath="DevExpress.XtraTreeList.v15.2.resources.dll_1"/>
+    <ROW Component="DevExpress.XtraTreeList.v15.2.resource_2" ComponentId="{122BF6C7-EADB-4574-BB37-4F2133FC8830}" Directory_="ja_Dir" Attributes="0" KeyPath="DevExpress.XtraTreeList.v15.2.resources.dll_2"/>
+    <ROW Component="DevExpress.XtraTreeList.v15.2.resource_3" ComponentId="{3BF0F2B4-B1B2-4EF1-9D2E-6B54F38F9A47}" Directory_="ru_Dir" Attributes="0" KeyPath="DevExpress.XtraTreeList.v15.2.resources.dll_3"/>
+    <ROW Component="DevExpress.XtraTreeList.v15.2.resources." ComponentId="{3BCEEB31-CCBE-4085-8887-D1EAB167320B}" Directory_="de_Dir" Attributes="0" KeyPath="DevExpress.XtraTreeList.v15.2.resources.dll"/>
+    <ROW Component="Newtonsoft.Json.dll" ComponentId="{DF66E589-6B8B-436C-930E-B1A03A7B7C66}" Directory_="APPDIR" Attributes="0" KeyPath="Newtonsoft.Json.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{919734DC-122B-48D7-A82D-DB68104588B5}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="dates.txt" ComponentId="{09E01951-896F-4B80-8D86-2E4164F3BD65}" Directory_="APPDIR" Attributes="0" KeyPath="dates.txt" Type="0"/>
+    <ROW Component="updater.exe" ComponentId="{822795C5-83BB-4D52-A615-6DE9AF4405C2}" Directory_="APPDIR" Attributes="0" KeyPath="updater.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="Birthday.exe BirthdayMainModule.exe DevExpress.Data.v15.2.dll DevExpress.Data.v15.2.resources.dll DevExpress.Data.v15.2.resources.dll_1 DevExpress.Data.v15.2.resources.dll_2 DevExpress.Data.v15.2.resources.dll_3 DevExpress.Images.v15.2.dll DevExpress.Office.v15.2.Core.dll DevExpress.Office.v15.2.Core.resources.d DevExpress.Office.v15.2.Core.resources_1 DevExpress.Office.v15.2.Core.resources_2 DevExpress.Office.v15.2.Core.resources_3 DevExpress.Pdf.v15.2.Core.dll DevExpress.Pdf.v15.2.Core.resources.dl_1 DevExpress.Pdf.v15.2.Core.resources.dl_2 DevExpress.Pdf.v15.2.Core.resources.dl_3 DevExpress.Pdf.v15.2.Core.resources.dll DevExpress.Pdf.v15.2.Drawing.dll DevExpress.Printing.v15.2.Core.dll DevExpress.Printing.v15.2.Core.resourc_1 DevExpress.Printing.v15.2.Core.resourc_2 DevExpress.Printing.v15.2.Core.resourc_3 DevExpress.Printing.v15.2.Core.resources DevExpress.RichEdit.v15.2.Core.dll DevExpress.RichEdit.v15.2.Core.resourc_1 DevExpress.RichEdit.v15.2.Core.resourc_2 DevExpress.RichEdit.v15.2.Core.resourc_3 DevExpress.RichEdit.v15.2.Core.resources DevExpress.Sparkline.v15.2.Core.dll DevExpress.Sparkline.v15.2.Core.resour_1 DevExpress.Sparkline.v15.2.Core.resour_2 DevExpress.Sparkline.v15.2.Core.resour_3 DevExpress.Sparkline.v15.2.Core.resource DevExpress.Utils.v15.2.dll DevExpress.Utils.v15.2.resources.dll DevExpress.Utils.v15.2.resources.dll_1 DevExpress.Utils.v15.2.resources.dll_2 DevExpress.Utils.v15.2.resources.dll_3 DevExpress.XtraBars.v15.2.dll DevExpress.XtraBars.v15.2.resources.dl_1 DevExpress.XtraBars.v15.2.resources.dl_2 DevExpress.XtraBars.v15.2.resources.dl_3 DevExpress.XtraBars.v15.2.resources.dll DevExpress.XtraEditors.v15.2.dll DevExpress.XtraEditors.v15.2.resources.d DevExpress.XtraEditors.v15.2.resources_1 DevExpress.XtraEditors.v15.2.resources_2 DevExpress.XtraEditors.v15.2.resources_3 DevExpress.XtraLayout.v15.2.dll DevExpress.XtraLayout.v15.2.resources._1 DevExpress.XtraLayout.v15.2.resources._2 DevExpress.XtraLayout.v15.2.resources._3 DevExpress.XtraLayout.v15.2.resources.dl DevExpress.XtraPrinting.v15.2.dll DevExpress.XtraPrinting.v15.2.resource_1 DevExpress.XtraPrinting.v15.2.resource_2 DevExpress.XtraPrinting.v15.2.resource_3 DevExpress.XtraPrinting.v15.2.resources. DevExpress.XtraScheduler.v15.2.Core.dll DevExpress.XtraScheduler.v15.2.Core.re_1 DevExpress.XtraScheduler.v15.2.Core.re_2 DevExpress.XtraScheduler.v15.2.Core.re_3 DevExpress.XtraScheduler.v15.2.Core.reso DevExpress.XtraScheduler.v15.2.dll DevExpress.XtraScheduler.v15.2.resourc_1 DevExpress.XtraScheduler.v15.2.resourc_2 DevExpress.XtraScheduler.v15.2.resourc_3 DevExpress.XtraScheduler.v15.2.resources DevExpress.XtraTreeList.v15.2.dll DevExpress.XtraTreeList.v15.2.resource_1 DevExpress.XtraTreeList.v15.2.resource_2 DevExpress.XtraTreeList.v15.2.resource_3 DevExpress.XtraTreeList.v15.2.resources. Newtonsoft.Json.dll ProductInformation dates.txt updater.exe"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Birthday.exe" Component_="Birthday.exe" FileName="Birthday.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\Birthday.exe" SelfReg="false" NextFile="BirthdayMainModule.exe" DigSign="true"/>
+    <ROW File="BirthdayMainModule.exe" Component_="BirthdayMainModule.exe" FileName="BIRTHD~1.EXE|BirthdayMainModule.exe" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\BirthdayMainModule.exe" SelfReg="false" NextFile="version.txt" DigSign="true"/>
+    <ROW File="DevExpress.Data.v15.2.dll" Component_="DevExpress.Data.v15.2.dll" FileName="DEVEXP~1.DLL|DevExpress.Data.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Data.v15.2.dll" SelfReg="false" NextFile="DevExpress.Images.v15.2.dll"/>
+    <ROW File="DevExpress.Data.v15.2.resources.dll" Component_="DevExpress.Data.v15.2.resources.dll" FileName="DEVEXP~1.DLL|DevExpress.Data.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.Data.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.Office.v15.2.Core.resources.dll"/>
+    <ROW File="DevExpress.Data.v15.2.resources.dll_1" Component_="DevExpress.Data.v15.2.resources.dll_1" FileName="DEVEXP~1.DLL|DevExpress.Data.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.Data.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.Office.v15.2.Core.resources.dll_1"/>
+    <ROW File="DevExpress.Data.v15.2.resources.dll_2" Component_="DevExpress.Data.v15.2.resources.dll_2" FileName="DEVEXP~1.DLL|DevExpress.Data.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.Data.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.Office.v15.2.Core.resources.dll_2"/>
+    <ROW File="DevExpress.Data.v15.2.resources.dll_3" Component_="DevExpress.Data.v15.2.resources.dll_3" FileName="DEVEXP~1.DLL|DevExpress.Data.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.Data.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.Office.v15.2.Core.resources.dll_3"/>
+    <ROW File="DevExpress.Images.v15.2.dll" Component_="DevExpress.Images.v15.2.dll" FileName="DEVEXP~2.DLL|DevExpress.Images.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Images.v15.2.dll" SelfReg="false" NextFile="DevExpress.Office.v15.2.Core.dll"/>
+    <ROW File="DevExpress.Office.v15.2.Core.dll" Component_="DevExpress.Office.v15.2.Core.dll" FileName="DEVEXP~3.DLL|DevExpress.Office.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Office.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.Pdf.v15.2.Core.dll"/>
+    <ROW File="DevExpress.Office.v15.2.Core.resources.dll" Component_="DevExpress.Office.v15.2.Core.resources.d" FileName="DEVEXP~2.DLL|DevExpress.Office.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.Office.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Pdf.v15.2.Core.resources.dll"/>
+    <ROW File="DevExpress.Office.v15.2.Core.resources.dll_1" Component_="DevExpress.Office.v15.2.Core.resources_1" FileName="DEVEXP~2.DLL|DevExpress.Office.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.Office.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Pdf.v15.2.Core.resources.dll_1"/>
+    <ROW File="DevExpress.Office.v15.2.Core.resources.dll_2" Component_="DevExpress.Office.v15.2.Core.resources_2" FileName="DEVEXP~2.DLL|DevExpress.Office.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.Office.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Pdf.v15.2.Core.resources.dll_2"/>
+    <ROW File="DevExpress.Office.v15.2.Core.resources.dll_3" Component_="DevExpress.Office.v15.2.Core.resources_3" FileName="DEVEXP~2.DLL|DevExpress.Office.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.Office.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Pdf.v15.2.Core.resources.dll_3"/>
+    <ROW File="DevExpress.Pdf.v15.2.Core.dll" Component_="DevExpress.Pdf.v15.2.Core.dll" FileName="DEVEXP~4.DLL|DevExpress.Pdf.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Pdf.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.Pdf.v15.2.Drawing.dll"/>
+    <ROW File="DevExpress.Pdf.v15.2.Core.resources.dll" Component_="DevExpress.Pdf.v15.2.Core.resources.dll" FileName="DEVEXP~3.DLL|DevExpress.Pdf.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.Pdf.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Printing.v15.2.Core.resources.dll"/>
+    <ROW File="DevExpress.Pdf.v15.2.Core.resources.dll_1" Component_="DevExpress.Pdf.v15.2.Core.resources.dl_1" FileName="DEVEXP~3.DLL|DevExpress.Pdf.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.Pdf.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Printing.v15.2.Core.resources.dll_1"/>
+    <ROW File="DevExpress.Pdf.v15.2.Core.resources.dll_2" Component_="DevExpress.Pdf.v15.2.Core.resources.dl_2" FileName="DEVEXP~3.DLL|DevExpress.Pdf.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.Pdf.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Printing.v15.2.Core.resources.dll_2"/>
+    <ROW File="DevExpress.Pdf.v15.2.Core.resources.dll_3" Component_="DevExpress.Pdf.v15.2.Core.resources.dl_3" FileName="DEVEXP~3.DLL|DevExpress.Pdf.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.Pdf.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Printing.v15.2.Core.resources.dll_3"/>
+    <ROW File="DevExpress.Pdf.v15.2.Drawing.dll" Component_="DevExpress.Pdf.v15.2.Drawing.dll" FileName="DEVEXP~5.DLL|DevExpress.Pdf.v15.2.Drawing.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Pdf.v15.2.Drawing.dll" SelfReg="false" NextFile="DevExpress.Printing.v15.2.Core.dll"/>
+    <ROW File="DevExpress.Printing.v15.2.Core.dll" Component_="DevExpress.Printing.v15.2.Core.dll" FileName="DEVEXP~6.DLL|DevExpress.Printing.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Printing.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.RichEdit.v15.2.Core.dll"/>
+    <ROW File="DevExpress.Printing.v15.2.Core.resources.dll" Component_="DevExpress.Printing.v15.2.Core.resources" FileName="DEVEXP~4.DLL|DevExpress.Printing.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.Printing.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.RichEdit.v15.2.Core.resources.dll"/>
+    <ROW File="DevExpress.Printing.v15.2.Core.resources.dll_1" Component_="DevExpress.Printing.v15.2.Core.resourc_1" FileName="DEVEXP~4.DLL|DevExpress.Printing.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.Printing.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.RichEdit.v15.2.Core.resources.dll_1"/>
+    <ROW File="DevExpress.Printing.v15.2.Core.resources.dll_2" Component_="DevExpress.Printing.v15.2.Core.resourc_2" FileName="DEVEXP~4.DLL|DevExpress.Printing.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.Printing.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.RichEdit.v15.2.Core.resources.dll_2"/>
+    <ROW File="DevExpress.Printing.v15.2.Core.resources.dll_3" Component_="DevExpress.Printing.v15.2.Core.resourc_3" FileName="DEVEXP~4.DLL|DevExpress.Printing.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.Printing.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.RichEdit.v15.2.Core.resources.dll_3"/>
+    <ROW File="DevExpress.RichEdit.v15.2.Core.dll" Component_="DevExpress.RichEdit.v15.2.Core.dll" FileName="DEVEXP~7.DLL|DevExpress.RichEdit.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.RichEdit.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.Sparkline.v15.2.Core.dll"/>
+    <ROW File="DevExpress.RichEdit.v15.2.Core.resources.dll" Component_="DevExpress.RichEdit.v15.2.Core.resources" FileName="DEVEXP~5.DLL|DevExpress.RichEdit.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.RichEdit.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Sparkline.v15.2.Core.resources.dll"/>
+    <ROW File="DevExpress.RichEdit.v15.2.Core.resources.dll_1" Component_="DevExpress.RichEdit.v15.2.Core.resourc_1" FileName="DEVEXP~5.DLL|DevExpress.RichEdit.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.RichEdit.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Sparkline.v15.2.Core.resources.dll_1"/>
+    <ROW File="DevExpress.RichEdit.v15.2.Core.resources.dll_2" Component_="DevExpress.RichEdit.v15.2.Core.resourc_2" FileName="DEVEXP~5.DLL|DevExpress.RichEdit.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.RichEdit.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Sparkline.v15.2.Core.resources.dll_2"/>
+    <ROW File="DevExpress.RichEdit.v15.2.Core.resources.dll_3" Component_="DevExpress.RichEdit.v15.2.Core.resourc_3" FileName="DEVEXP~5.DLL|DevExpress.RichEdit.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.RichEdit.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Sparkline.v15.2.Core.resources.dll_3"/>
+    <ROW File="DevExpress.Sparkline.v15.2.Core.dll" Component_="DevExpress.Sparkline.v15.2.Core.dll" FileName="DEVEXP~8.DLL|DevExpress.Sparkline.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Sparkline.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.Utils.v15.2.dll"/>
+    <ROW File="DevExpress.Sparkline.v15.2.Core.resources.dll" Component_="DevExpress.Sparkline.v15.2.Core.resource" FileName="DEVEXP~6.DLL|DevExpress.Sparkline.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.Sparkline.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Utils.v15.2.resources.dll"/>
+    <ROW File="DevExpress.Sparkline.v15.2.Core.resources.dll_1" Component_="DevExpress.Sparkline.v15.2.Core.resour_1" FileName="DEVEXP~6.DLL|DevExpress.Sparkline.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.Sparkline.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Utils.v15.2.resources.dll_1"/>
+    <ROW File="DevExpress.Sparkline.v15.2.Core.resources.dll_2" Component_="DevExpress.Sparkline.v15.2.Core.resour_2" FileName="DEVEXP~6.DLL|DevExpress.Sparkline.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.Sparkline.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Utils.v15.2.resources.dll_2"/>
+    <ROW File="DevExpress.Sparkline.v15.2.Core.resources.dll_3" Component_="DevExpress.Sparkline.v15.2.Core.resour_3" FileName="DEVEXP~6.DLL|DevExpress.Sparkline.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.Sparkline.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.Utils.v15.2.resources.dll_3"/>
+    <ROW File="DevExpress.Utils.v15.2.dll" Component_="DevExpress.Utils.v15.2.dll" FileName="DEVEXP~9.DLL|DevExpress.Utils.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.Utils.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraBars.v15.2.dll"/>
+    <ROW File="DevExpress.Utils.v15.2.resources.dll" Component_="DevExpress.Utils.v15.2.resources.dll" FileName="DEVEXP~7.DLL|DevExpress.Utils.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.Utils.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraBars.v15.2.resources.dll"/>
+    <ROW File="DevExpress.Utils.v15.2.resources.dll_1" Component_="DevExpress.Utils.v15.2.resources.dll_1" FileName="DEVEXP~7.DLL|DevExpress.Utils.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.Utils.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraBars.v15.2.resources.dll_1"/>
+    <ROW File="DevExpress.Utils.v15.2.resources.dll_2" Component_="DevExpress.Utils.v15.2.resources.dll_2" FileName="DEVEXP~7.DLL|DevExpress.Utils.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.Utils.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraBars.v15.2.resources.dll_2"/>
+    <ROW File="DevExpress.Utils.v15.2.resources.dll_3" Component_="DevExpress.Utils.v15.2.resources.dll_3" FileName="DEVEXP~7.DLL|DevExpress.Utils.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.Utils.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraBars.v15.2.resources.dll_3"/>
+    <ROW File="DevExpress.XtraBars.v15.2.dll" Component_="DevExpress.XtraBars.v15.2.dll" FileName="DEVEX~10.DLL|DevExpress.XtraBars.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraBars.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraEditors.v15.2.dll"/>
+    <ROW File="DevExpress.XtraBars.v15.2.resources.dll" Component_="DevExpress.XtraBars.v15.2.resources.dll" FileName="DEVEXP~8.DLL|DevExpress.XtraBars.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.XtraBars.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraEditors.v15.2.resources.dll"/>
+    <ROW File="DevExpress.XtraBars.v15.2.resources.dll_1" Component_="DevExpress.XtraBars.v15.2.resources.dl_1" FileName="DEVEXP~8.DLL|DevExpress.XtraBars.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.XtraBars.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraEditors.v15.2.resources.dll_1"/>
+    <ROW File="DevExpress.XtraBars.v15.2.resources.dll_2" Component_="DevExpress.XtraBars.v15.2.resources.dl_2" FileName="DEVEXP~8.DLL|DevExpress.XtraBars.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.XtraBars.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraEditors.v15.2.resources.dll_2"/>
+    <ROW File="DevExpress.XtraBars.v15.2.resources.dll_3" Component_="DevExpress.XtraBars.v15.2.resources.dl_3" FileName="DEVEXP~8.DLL|DevExpress.XtraBars.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.XtraBars.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraEditors.v15.2.resources.dll_3"/>
+    <ROW File="DevExpress.XtraEditors.v15.2.dll" Component_="DevExpress.XtraEditors.v15.2.dll" FileName="DEVEX~11.DLL|DevExpress.XtraEditors.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraEditors.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraLayout.v15.2.dll"/>
+    <ROW File="DevExpress.XtraEditors.v15.2.resources.dll" Component_="DevExpress.XtraEditors.v15.2.resources.d" FileName="DEVEXP~9.DLL|DevExpress.XtraEditors.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.XtraEditors.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraLayout.v15.2.resources.dll"/>
+    <ROW File="DevExpress.XtraEditors.v15.2.resources.dll_1" Component_="DevExpress.XtraEditors.v15.2.resources_1" FileName="DEVEXP~9.DLL|DevExpress.XtraEditors.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.XtraEditors.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraLayout.v15.2.resources.dll_1"/>
+    <ROW File="DevExpress.XtraEditors.v15.2.resources.dll_2" Component_="DevExpress.XtraEditors.v15.2.resources_2" FileName="DEVEXP~9.DLL|DevExpress.XtraEditors.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.XtraEditors.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraLayout.v15.2.resources.dll_2"/>
+    <ROW File="DevExpress.XtraEditors.v15.2.resources.dll_3" Component_="DevExpress.XtraEditors.v15.2.resources_3" FileName="DEVEXP~9.DLL|DevExpress.XtraEditors.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.XtraEditors.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraLayout.v15.2.resources.dll_3"/>
+    <ROW File="DevExpress.XtraLayout.v15.2.dll" Component_="DevExpress.XtraLayout.v15.2.dll" FileName="DEVEX~12.DLL|DevExpress.XtraLayout.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraLayout.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraPrinting.v15.2.dll"/>
+    <ROW File="DevExpress.XtraLayout.v15.2.resources.dll" Component_="DevExpress.XtraLayout.v15.2.resources.dl" FileName="DEVEX~10.DLL|DevExpress.XtraLayout.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.XtraLayout.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraPrinting.v15.2.resources.dll"/>
+    <ROW File="DevExpress.XtraLayout.v15.2.resources.dll_1" Component_="DevExpress.XtraLayout.v15.2.resources._1" FileName="DEVEX~10.DLL|DevExpress.XtraLayout.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.XtraLayout.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraPrinting.v15.2.resources.dll_1"/>
+    <ROW File="DevExpress.XtraLayout.v15.2.resources.dll_2" Component_="DevExpress.XtraLayout.v15.2.resources._2" FileName="DEVEX~10.DLL|DevExpress.XtraLayout.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.XtraLayout.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraPrinting.v15.2.resources.dll_2"/>
+    <ROW File="DevExpress.XtraLayout.v15.2.resources.dll_3" Component_="DevExpress.XtraLayout.v15.2.resources._3" FileName="DEVEX~10.DLL|DevExpress.XtraLayout.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.XtraLayout.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraPrinting.v15.2.resources.dll_3"/>
+    <ROW File="DevExpress.XtraPrinting.v15.2.dll" Component_="DevExpress.XtraPrinting.v15.2.dll" FileName="DEVEX~13.DLL|DevExpress.XtraPrinting.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraPrinting.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.Core.dll"/>
+    <ROW File="DevExpress.XtraPrinting.v15.2.resources.dll" Component_="DevExpress.XtraPrinting.v15.2.resources." FileName="DEVEX~11.DLL|DevExpress.XtraPrinting.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.XtraPrinting.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.Core.resources.dll"/>
+    <ROW File="DevExpress.XtraPrinting.v15.2.resources.dll_1" Component_="DevExpress.XtraPrinting.v15.2.resource_1" FileName="DEVEX~11.DLL|DevExpress.XtraPrinting.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.XtraPrinting.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.Core.resources.dll_1"/>
+    <ROW File="DevExpress.XtraPrinting.v15.2.resources.dll_2" Component_="DevExpress.XtraPrinting.v15.2.resource_2" FileName="DEVEX~11.DLL|DevExpress.XtraPrinting.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.XtraPrinting.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.Core.resources.dll_2"/>
+    <ROW File="DevExpress.XtraPrinting.v15.2.resources.dll_3" Component_="DevExpress.XtraPrinting.v15.2.resource_3" FileName="DEVEX~11.DLL|DevExpress.XtraPrinting.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.XtraPrinting.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.Core.resources.dll_3"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.Core.dll" Component_="DevExpress.XtraScheduler.v15.2.Core.dll" FileName="DEVEX~14.DLL|DevExpress.XtraScheduler.v15.2.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraScheduler.v15.2.Core.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.dll"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.Core.resources.dll" Component_="DevExpress.XtraScheduler.v15.2.Core.reso" FileName="DEVEX~12.DLL|DevExpress.XtraScheduler.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.XtraScheduler.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.resources.dll"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.Core.resources.dll_1" Component_="DevExpress.XtraScheduler.v15.2.Core.re_1" FileName="DEVEX~12.DLL|DevExpress.XtraScheduler.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.XtraScheduler.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.resources.dll_1"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.Core.resources.dll_2" Component_="DevExpress.XtraScheduler.v15.2.Core.re_2" FileName="DEVEX~12.DLL|DevExpress.XtraScheduler.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.XtraScheduler.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.resources.dll_2"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.Core.resources.dll_3" Component_="DevExpress.XtraScheduler.v15.2.Core.re_3" FileName="DEVEX~12.DLL|DevExpress.XtraScheduler.v15.2.Core.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.XtraScheduler.v15.2.Core.resources.dll" SelfReg="false" NextFile="DevExpress.XtraScheduler.v15.2.resources.dll_3"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.dll" Component_="DevExpress.XtraScheduler.v15.2.dll" FileName="DEVEX~15.DLL|DevExpress.XtraScheduler.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraScheduler.v15.2.dll" SelfReg="false" NextFile="DevExpress.XtraTreeList.v15.2.dll"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.resources.dll" Component_="DevExpress.XtraScheduler.v15.2.resources" FileName="DEVEX~13.DLL|DevExpress.XtraScheduler.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.XtraScheduler.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraTreeList.v15.2.resources.dll"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.resources.dll_1" Component_="DevExpress.XtraScheduler.v15.2.resourc_1" FileName="DEVEX~13.DLL|DevExpress.XtraScheduler.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.XtraScheduler.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraTreeList.v15.2.resources.dll_1"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.resources.dll_2" Component_="DevExpress.XtraScheduler.v15.2.resourc_2" FileName="DEVEX~13.DLL|DevExpress.XtraScheduler.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.XtraScheduler.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraTreeList.v15.2.resources.dll_2"/>
+    <ROW File="DevExpress.XtraScheduler.v15.2.resources.dll_3" Component_="DevExpress.XtraScheduler.v15.2.resourc_3" FileName="DEVEX~13.DLL|DevExpress.XtraScheduler.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.XtraScheduler.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.XtraTreeList.v15.2.resources.dll_3"/>
+    <ROW File="DevExpress.XtraTreeList.v15.2.dll" Component_="DevExpress.XtraTreeList.v15.2.dll" FileName="DEVEX~16.DLL|DevExpress.XtraTreeList.v15.2.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\DevExpress.XtraTreeList.v15.2.dll" SelfReg="false" NextFile="Newtonsoft.Json.dll"/>
+    <ROW File="DevExpress.XtraTreeList.v15.2.resources.dll" Component_="DevExpress.XtraTreeList.v15.2.resources." FileName="DEVEX~14.DLL|DevExpress.XtraTreeList.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\de\DevExpress.XtraTreeList.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.Data.v15.2.resources.dll_1"/>
+    <ROW File="DevExpress.XtraTreeList.v15.2.resources.dll_1" Component_="DevExpress.XtraTreeList.v15.2.resource_1" FileName="DEVEX~14.DLL|DevExpress.XtraTreeList.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\es\DevExpress.XtraTreeList.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.Data.v15.2.resources.dll_2"/>
+    <ROW File="DevExpress.XtraTreeList.v15.2.resources.dll_2" Component_="DevExpress.XtraTreeList.v15.2.resource_2" FileName="DEVEX~14.DLL|DevExpress.XtraTreeList.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ja\DevExpress.XtraTreeList.v15.2.resources.dll" SelfReg="false" NextFile="DevExpress.Data.v15.2.resources.dll_3"/>
+    <ROW File="DevExpress.XtraTreeList.v15.2.resources.dll_3" Component_="DevExpress.XtraTreeList.v15.2.resource_3" FileName="DEVEX~14.DLL|DevExpress.XtraTreeList.v15.2.resources.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\ru\DevExpress.XtraTreeList.v15.2.resources.dll" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="Newtonsoft.Json.dll" FileName="NEWTON~1.DLL|Newtonsoft.Json.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\Newtonsoft.Json.dll" SelfReg="false" NextFile="updater.exe"/>
+    <ROW File="dates.txt" Component_="dates.txt" FileName="dates.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\dates.txt" SelfReg="false" NextFile="DevExpress.Data.v15.2.dll"/>
+    <ROW File="updater.exe" Component_="updater.exe" FileName="BIRTHD~2.EXE|BirthdayUpdater.exe" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_STUBS&gt;updater.exe" SelfReg="false" NextFile="Birthday.exe" DigSign="true"/>
+    <ROW File="version.txt" Component_="dates.txt" FileName="version.txt" Attributes="0" SourcePath="..\..\..\..\..\..\Birthday\version.txt" SelfReg="false" NextFile="DevExpress.Data.v15.2.resources.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="1" PackageFolder="Setup Files" PackageFileName="Birthday" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="AI_UPDATER_UNINSTALL" Type="82" Source="updater.exe" Target="/clean silent"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="_.exe" SourcePath="..\..\..\..\..\..\Work\Images\s17\0315.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIniFileComponent">
+    <ROW IniFile="AppDir" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="AppDir" Value="[APPDIR]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="ApplicationName" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="ApplicationName" Value="[ProductName]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="ApplicationVersion" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="ApplicationVersion" Value="[ProductVersion]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="CheckFrequency" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="CheckFrequency" Value="2" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="CompanyName" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="CompanyName" Value="[Manufacturer]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="DefaultCommandLine" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="DefaultCommandLine" Value="/checknow" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="DownloadsFolder" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="DownloadsFolder" Value="[CommonAppDataFolder][Manufacturer]\[ProductName]\updates\" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="Flags" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="Flags" Value="PerMachine|ShowConfigOptionsButton" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="ID" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="ID" Value="[UpgradeCode]" Action="0" Component_="updater.exe"/>
+    <ROW IniFile="URL" FileName="BIRTHD~1.INI|BirthdayUpdater.ini" DirProperty="APPDIR" Section="General" Key="URL" Value="http://api.nccp-eng.ru/app/BirthdayUpdates.txt" Action="0" Component_="updater.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_UPDATER_UNINSTALL" Condition="($updater.exe = 2) AND (?updater.exe = 3) AND NOT (UPGRADINGPRODUCTCODE)" Sequence="1551"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Birthday" Directory_="DesktopFolder" Name="Birthday" Component_="Birthday.exe" Target="[#Birthday.exe]" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.UpdaterComponent">
+    <ROW Updater="updater.exe" URL="URL" SearchFreq="CheckFrequency" DownloadsFolder="DownloadsFolder" ID="ID" TargetDir="AppDir" AppName="ApplicationName" AppVersion="ApplicationVersion" CompanyName="CompanyName" DefCommandLine="DefaultCommandLine" Flags="Flags" IconPath="..\..\..\..\..\..\Work\Images\s17\0649.ico" IconIndex="0" UnistallCASeq="AI_UPDATER_UNINSTALL" Description="[|UpdaterName] [|ProductVersion] © [|Manufacturer], Inc, 2016"/>
+  </COMPONENT>
+</DOCUMENT>

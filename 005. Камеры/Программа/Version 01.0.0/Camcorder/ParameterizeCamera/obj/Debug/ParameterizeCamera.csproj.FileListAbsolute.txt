@@ -1,0 +1,10 @@
+C:\Program Files\Basler\pylon 4\Samples\C#\ParameterizeCamera\bin\Debug\ParameterizeCamera.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\ParameterizeCamera\bin\Debug\ParameterizeCamera.pdb
+C:\Program Files\Basler\pylon 4\Samples\C#\ParameterizeCamera\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\Basler\pylon 4\Samples\C#\ParameterizeCamera\obj\Debug\ParameterizeCamera.exe
+C:\Program Files\Basler\pylon 4\Samples\C#\ParameterizeCamera\obj\Debug\ParameterizeCamera.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\bin\Debug\ParameterizeCamera.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\bin\Debug\ParameterizeCamera.pdb
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\obj\Debug\ResolveAssemblyReference.cache
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\obj\Debug\ParameterizeCamera.exe
+E:\работа (установки)\ПО для установок (рабочий архив)\ПРОРЫВ\проект для камеры\ParameterizeCamera\obj\Debug\ParameterizeCamera.pdb
