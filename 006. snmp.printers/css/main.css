@@ -1,0 +1,46 @@
+﻿/* Общий файл стилей для всего проекта. */
+
+/* таблица */
+table {                           
+    border: 0px solid grey;     /* внешние границы таблицы серого цвета толщиной 1px */
+    border-collapse: collapse;  /* убрать промежутки между ячейками таблицы */
+    width: 100%;                /* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
+	table-layout: fixed;        /* фиксированная ширина ячеек */
+	word-wrap: break-word;      /* старый вариант переноса слов */
+	overflow-wrap: break-word;  /* новый вариант переноса слов */
+	text-align: center;         /* выравнивание по центру ячейки */
+} 
+
+/* ячейки */
+th,td {                           
+    border: 1px solid grey;     /* границы ячеек первого ряда таблицы */
+	padding: 5px;               /* внешний отступ текста ячеек*/     
+}
+
+td.search {                           
+    border: 0px;    		    /* границы ячеек первого ряда таблицы */
+	padding: 5px;               /* внешний отступ текста ячеек*/   	
+}
+
+tr.s {                           
+    width: 5%;   
+}
+
+/* Основной макет */
+html {
+	overflow-y:scroll;
+}
+
+html, body {
+	margin:0;
+	padding:0;
+	border:0;
+	width:100%;
+	height:100%;
+	font-family:tahoma, arial, verdana, sans-serif, Lucida Sans; 
+	font-size: 13px;
+}
+
+
+
+
